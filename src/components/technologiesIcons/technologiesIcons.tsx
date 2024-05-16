@@ -15,26 +15,35 @@ import {
   RiTailwindCssFillP,
   SiViteP,
   SiNextdotjsP,
+  MainContainer,
+  H1,
+  HeaderContainer,
 } from "./styles";
 
 export function TechnologiesIcons() {
   return (
     <>
-      <Container>
-        <SiJavascriptP size={40} />
-        <BiLogoTypescriptP size={40} />
-        <FaReactP size={40} />
-        <FaHtml5P size={40} />
-        <IoLogoCss3P size={40} />
-        <SiStyledcomponentsP size={58} />
-        <RiTailwindCssFillP size={40} />
-        <FaNodeJsP size={40} />
-        <FaFigmaP size={40} />
-        <FaGitAltP size={40} />
-        <FaGithubP size={40} />
-        <SiViteP size={40} />
-        <SiNextdotjsP size={40} />
-      </Container>
+      <MainContainer>
+        <HeaderContainer>
+          <H1>Habilidades</H1>
+        </HeaderContainer>
+
+        <Container>
+          <FaHtml5P size="2.5rem" />
+          <IoLogoCss3P size="2.5rem" />
+          <SiJavascriptP size="2.5rem" />
+          <BiLogoTypescriptP size="3.25rem" />
+          <FaReactP size="2.5rem" />
+          <SiStyledcomponentsP size="3.625rem" />
+          <RiTailwindCssFillP size="2.5rem" />
+          <FaNodeJsP size="2.5rem" />
+          <FaFigmaP size="2.5rem" />
+          <FaGitAltP size="2.5rem" />
+          <FaGithubP size="2.5rem" />
+          <SiViteP size="2.5rem" />
+          <SiNextdotjsP size="2.5rem" />
+        </Container>
+      </MainContainer>
     </>
   );
 }
