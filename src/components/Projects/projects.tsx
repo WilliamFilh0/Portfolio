@@ -1,6 +1,16 @@
 import React from "react";
 
-import { Block, H1, Container, HeaderContainer } from "./styles";
+import {
+  H1,
+  Container,
+  HeaderContainer,
+  ProjectFeed,
+  ProjectRocketNotes,
+  ProjectTrips,
+  Teste1,
+  Teste2,
+  Teste3,
+} from "./styles";
 
 export function Projects() {
   return (
@@ -10,15 +20,12 @@ export function Projects() {
       </HeaderContainer>
 
       <Container>
-        <Block />
-        <Block />
-        <Block />
-        <Block />
-        <Block />
-        <Block />
-        <Block />
-        <Block />
-        <Block />
+        <ProjectRocketNotes />
+        <ProjectTrips />
+        <ProjectFeed />
+        <Teste1 />
+        <Teste2 />
+        <Teste3 />
       </Container>
     </>
   );

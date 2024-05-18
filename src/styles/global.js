@@ -8,7 +8,7 @@ export default createGlobalStyle`
   }
 
   body{
-    height: 100vh;
+    height: 100%;
     background-color: #121214;
   }
 `;
