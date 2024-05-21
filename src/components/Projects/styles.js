@@ -68,6 +68,8 @@ export const Teste1 = styled.div`
   /* height: 325px;
   width: 525px; */
 
+  margin-top: 20px;
+
   background-color: orange;
 `;
 
@@ -79,6 +81,8 @@ export const Teste2 = styled.div`
   /* height: 325px;
   width: 525px; */
 
+  margin-top: 20px;
+
   background-color: purple;
 `;
 
@@ -89,6 +93,8 @@ export const Teste3 = styled.div`
   width: 32.813rem;
   /* height: 325px;
   width: 525px; */
+
+  margin-top: 20px;
 
   background-color: magenta;
 `;
