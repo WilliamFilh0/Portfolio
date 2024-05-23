@@ -7,7 +7,15 @@ export const Container = styled.header`
 
   height: 3.125rem;
   width: 100%;
-  background-color: #312e38;
+
+  border-bottom: 0.1px solid #87ceeb;
+
+  /* background-color: #312e38; //GRAY */
+  /* background-color: #383838;
+  background-color: #2c2c2c; */
+
+  /* background-color: #1c1c1e; */
+  background-color: rgba(28, 28, 30, 0.6);
 `;
 
 export const Ul = styled.ul`
@@ -24,5 +32,4 @@ export const Ul = styled.ul`
 export const Img = styled.img`
   height: 50px;
   margin-left: 30px;
-  /* background-color: #87ceeb; */
 `;

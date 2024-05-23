@@ -1,10 +1,7 @@
 import React from "react";
 import { Container, Ul, Img } from "./styles";
 
-const imageEletronica = new URL(
-  "../../assets/imageEletronica.png",
-  import.meta.url
-);
+const imageEletronica = new URL("../../assets/imagePlaca.png", import.meta.url);
 
 export function Header() {
   return (
