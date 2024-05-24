@@ -18,6 +18,8 @@ import {
   MainContainer,
   H1,
   HeaderContainer,
+  TechContainer,
+  TechIconTitle,
 } from "./styles";
 
 export function TechnologiesIcons() {
@@ -29,19 +31,71 @@ export function TechnologiesIcons() {
         </HeaderContainer>
 
         <Container>
-          <FaHtml5P size="2.5rem" />
-          <IoLogoCss3P size="2.5rem" />
-          <SiJavascriptP size="2.5rem" />
-          <BiLogoTypescriptP size="3.25rem" />
-          <FaReactP size="2.5rem" />
-          <SiStyledcomponentsP size="3.625rem" />
-          <RiTailwindCssFillP size="2.5rem" />
-          <FaNodeJsP size="2.5rem" />
-          <FaFigmaP size="2.5rem" />
-          <FaGitAltP size="2.5rem" />
-          <FaGithubP size="2.5rem" />
-          <SiViteP size="2.5rem" />
-          <SiNextdotjsP size="2.5rem" />
+          <TechContainer>
+            <FaHtml5P size="2.5rem" />
+            <TechIconTitle>HTML</TechIconTitle>
+          </TechContainer>
+
+          <TechContainer>
+            <IoLogoCss3P size="2.5rem" />
+            <TechIconTitle>CSS</TechIconTitle>
+          </TechContainer>
+
+          <TechContainer>
+            <SiJavascriptP size="2.5rem" />
+            <TechIconTitle>JavaScript</TechIconTitle>
+          </TechContainer>
+
+          <TechContainer>
+            <BiLogoTypescriptP size="2.5rem" />
+            <TechIconTitle>TypeScript</TechIconTitle>
+          </TechContainer>
+          {/* size="3.25rem" */}
+
+          <TechContainer>
+            <FaReactP size="2.5rem" />
+            <TechIconTitle>React</TechIconTitle>
+          </TechContainer>
+
+          <TechContainer>
+            <SiStyledcomponentsP size="2.5rem" />
+            <TechIconTitle>CSS-in-Js</TechIconTitle>
+          </TechContainer>
+
+          <TechContainer>
+            <RiTailwindCssFillP size="2.5rem" />
+            <TechIconTitle>TailWind</TechIconTitle>
+          </TechContainer>
+
+          <TechContainer>
+            <FaNodeJsP size="2.5rem" />
+            <TechIconTitle>NodeJS</TechIconTitle>
+          </TechContainer>
+
+          <TechContainer>
+            <FaFigmaP size="2.5rem" />
+            <TechIconTitle>Figma</TechIconTitle>
+          </TechContainer>
+
+          <TechContainer>
+            <FaGitAltP size="2.5rem" />
+            <TechIconTitle>Git</TechIconTitle>
+          </TechContainer>
+
+          <TechContainer>
+            <FaGithubP size="2.5rem" />
+            <TechIconTitle>GitHub</TechIconTitle>
+          </TechContainer>
+
+          <TechContainer>
+            <SiViteP size="2.5rem" />
+            <TechIconTitle>Vite</TechIconTitle>
+          </TechContainer>
+
+          <TechContainer>
+            <SiNextdotjsP size="2.5rem" />
+            <TechIconTitle>Next</TechIconTitle>
+          </TechContainer>
         </Container>
       </MainContainer>
     </>
