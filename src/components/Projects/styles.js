@@ -1,10 +1,13 @@
 import styled from "styled-components";
+const rocketNotes = new URL("../../assets/rocketNotes.png ", import.meta.url);
+const feed = new URL("../../assets/feed.png ", import.meta.url);
 
 export const HeaderContainer = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
 
+  margin-top: 60px; //TIRAR DEPOIS
   margin-bottom: 3.125rem;
 `;
 
@@ -23,7 +26,7 @@ export const Container = styled.div`
   grid-template-rows: 1fr 1fr;
 
   grid-template-areas:
-    "ProjectRocketNotes ProjectTrips ProjectFeed"
+    "ProjectRocketNotes  ProjectFeed ProjectTrips"
     "Teste1 Teste2 Teste3";
 `;
 
@@ -35,7 +38,24 @@ export const ProjectRocketNotes = styled.div`
   /* height: 325px;
   width: 525px; */
 
+  background-image: url(${rocketNotes});
+  background-size: cover;
+
   background-color: red;
+`;
+
+export const ProjectFeed = styled.div`
+  grid-area: ProjectFeed;
+
+  background-image: url(${feed});
+  background-size: cover;
+
+  height: 20.313rem;
+  width: 32.813rem;
+  /* height: 325px;
+  width: 525px; */
+
+  background-color: blue;
 `;
 
 export const ProjectTrips = styled.div`
@@ -47,17 +67,6 @@ export const ProjectTrips = styled.div`
   width: 525px; */
 
   background-color: green;
-`;
-
-export const ProjectFeed = styled.div`
-  grid-area: ProjectFeed;
-
-  height: 20.313rem;
-  width: 32.813rem;
-  /* height: 325px;
-  width: 525px; */
-
-  background-color: blue;
 `;
 
 export const Teste1 = styled.div`

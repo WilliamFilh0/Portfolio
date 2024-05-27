@@ -21,8 +21,8 @@ export function Projects() {
 
       <Container>
         <ProjectRocketNotes />
-        <ProjectTrips />
         <ProjectFeed />
+        <ProjectTrips />
         <Teste1 />
         <Teste2 />
         <Teste3 />
