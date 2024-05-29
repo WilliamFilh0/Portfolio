@@ -9,7 +9,17 @@ export default createGlobalStyle`
 
   body{
     min-height: 100vh;
-    background-color: #121214;
-     /* background-color: #3d3d3d;  */
+
+   //cor que estava antes 
+   background-color: #242426;
+
+   //cor um pouco mias clara
+   background-color: #28282A;
+
+   background-color: rgba(45, 45, 47, 1); /* Um pouco mais clara */
+
+    
+
+ 
   }
 `;
