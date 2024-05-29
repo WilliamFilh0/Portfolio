@@ -28,6 +28,8 @@ export const Container = styled.div`
   grid-template-areas:
     "ProjectRocketNotes  ProjectFeed ProjectTrips"
     "Teste1 Teste2 Teste3";
+
+  margin-bottom: 200px; //Tirar depois
 `;
 
 export const ProjectRocketNotes = styled.div`
