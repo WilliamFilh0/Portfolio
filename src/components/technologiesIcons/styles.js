@@ -55,7 +55,10 @@ export const TechContainer = styled.div`
 
   border-radius: 20px;
 
-  background-color: rgba(28, 28, 30, 0.5);
+  /* background-color: rgba(28, 28, 30, 0.2); Cor que estava antes*/
+  /* background-color: rgba(48, 48, 50, 0.9); */
+  background-color: rgba(53, 53, 55, 0.9); /* Um pouco mais clara */
+
   transition: transform 1s;
 
   &:hover {
