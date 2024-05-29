@@ -6,7 +6,6 @@ export const CenteredContainer = styled.div`
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-top: 40px;
   position: relative;
 `;
 
@@ -20,8 +19,8 @@ const float = keyframes`
 `;
 
 export const UserProfile = styled.div`
-  width: 500px;
-  height: 510px;
+  width: 31.25rem;
+  height: 31.875rem;
   /* width: 400px;
   height: 400px; */
 
@@ -83,14 +82,14 @@ export const UserProfile = styled.div`
 `;
 
 export const Img = styled.img`
-  height: 400px;
+  height: 25rem;
   /* height: 300px; */
   position: relative;
   z-index: 2;
 `;
 
 export const ImgBackground = styled.img`
-  height: 400px;
+  height: 25rem;
   /* height: 300px; */
   position: absolute;
   z-index: 1;
