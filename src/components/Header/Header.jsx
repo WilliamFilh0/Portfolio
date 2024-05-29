@@ -6,9 +6,10 @@ const imageEletronica = new URL("../../assets/imagePlaca.png", import.meta.url);
 export function Header() {
   return (
     <Container>
-      <Img src={imageEletronica.href} alt="image-circuitos" />{" "}
+      <a href="http://localhost:5173/">
+        <Img src={imageEletronica.href} alt="image-circuitos" />{" "}
+      </a>
       <Ul>
-        <li>Home</li>
         <li>About</li>
         <li>Projects</li>
         <li>Contacts</li>
