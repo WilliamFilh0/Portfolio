@@ -46,7 +46,7 @@ export const ButtonContact = styled.button`
   background-color: rgba(53, 53, 55, 0.9);
   border-radius: 20px;
   color: white;
-  gap: 5px;
+  gap: 7px;
 
   transition: transform 1s;
 

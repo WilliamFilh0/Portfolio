@@ -38,21 +38,21 @@ export function ContactArea() {
             target="_blank"
           >
             <ButtonContact>
-              <BsLinkedin /> Linkedin
+              <BsLinkedin size={"0.813rem"} /> Linkedin
             </ButtonContact>
           </a>
 
           <a href="mailto:williamaraujodev@gmail.com" target="_blank">
             <ButtonContact>
-              <HiOutlineMail /> Email
+              <HiOutlineMail size={"1rem"} /> Email
             </ButtonContact>
           </a>
 
-          <a href="https://github.com/WilliamFilh0" target="_blank">
+          {/* <a href="https://github.com/WilliamFilh0" target="_blank">
             <ButtonContact>
               <SiGithub /> Github
             </ButtonContact>
-          </a>
+          </a> */}
         </ContactButtonContainer>
 
         <ContactMessage>

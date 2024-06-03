@@ -10,11 +10,11 @@ import {
 export function Contact() {
   return (
     <Center>
-      <Container>
+      {/* <Container>
         <a href="mailto:williamaraujodev@gmail.com" target="_blank">
           <HiOutlineMailP size="2.5rem" />
         </a>
-      </Container>
+      </Container> */}
       <Container>
         <a
           href="https://www.linkedin.com/in/william-filho-23363a26b/"
@@ -23,11 +23,11 @@ export function Contact() {
           <BsLinkedinP size="2.5rem" />
         </a>
       </Container>
-      {/* <Container>
+      <Container>
         <a href="https://github.com/WilliamFilh0" target="_blank">
           <SiGithubP size="2.5rem" />
         </a>
-      </Container> */}
+      </Container>
     </Center>
   );
 }
