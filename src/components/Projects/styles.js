@@ -44,6 +44,15 @@ export const ProjectRocketNotes = styled.div`
   background-size: cover;
 
   background-color: red;
+
+  transition: transform 1s;
+
+  border-radius: 5px;
+
+  &:hover {
+    transform: scale(1.1) translateY(-5px);
+    border: 1px solid #87ceeb;
+  }
 `;
 
 export const ProjectFeed = styled.div`
@@ -57,7 +66,16 @@ export const ProjectFeed = styled.div`
   /* height: 325px;
   width: 525px; */
 
+  border-radius: 5px;
+
   background-color: blue;
+
+  transition: transform 1s;
+
+  &:hover {
+    transform: scale(1.1) translateY(-5px);
+    border: 1px solid #87ceeb;
+  }
 `;
 
 export const ProjectTrips = styled.div`
@@ -67,6 +85,8 @@ export const ProjectTrips = styled.div`
   width: 32.813rem;
   /* height: 325px;
   width: 525px; */
+
+  border-radius: 5px;
 
   background-color: green;
 `;
@@ -81,6 +101,8 @@ export const Teste1 = styled.div`
 
   margin-top: 20px;
 
+  border-radius: 5px;
+
   background-color: orange;
 `;
 
@@ -94,6 +116,8 @@ export const Teste2 = styled.div`
 
   margin-top: 20px;
 
+  border-radius: 5px;
+
   background-color: purple;
 `;
 
@@ -106,6 +130,8 @@ export const Teste3 = styled.div`
   width: 525px; */
 
   margin-top: 20px;
+
+  border-radius: 5px;
 
   background-color: magenta;
 `;
