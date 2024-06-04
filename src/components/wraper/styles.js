@@ -1,14 +1,19 @@
 import styled from "styled-components";
+
 const RocketNotes = new URL("../../assets/rocketNotes.png", import.meta.url);
+
 import { FaExternalLinkAlt } from "react-icons/fa";
+import { IoMdClose } from "react-icons/io";
 import { BsGithub } from "react-icons/bs";
 
 export const Center = styled.div`
-  display: flex;
+  /* display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: center; */
+
+  /* top: 83rem; */
+
   margin-bottom: 80px; //TIRAR DEPOIS
-  /* display: none; */
 `;
 
 export const WrapperContainer = styled.div`
@@ -22,7 +27,24 @@ export const WrapperContainer = styled.div`
   justify-content: space-between;
 
   padding: 15px;
+
+  position: relative;
+
   /* border-radius: 5px; */
+`;
+
+export const IoMdCloseP = styled(IoMdClose)`
+  color: white;
+
+  position: absolute;
+
+  top: 1.6rem;
+  right: 1.6rem;
+
+  &:hover {
+    color: red;
+    cursor: pointer;
+  }
 `;
 
 export const WrapperImage = styled.div`

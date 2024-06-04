@@ -7,6 +7,13 @@ export const FullHeightContainer = styled.div`
   justify-content: center;
 `;
 
+// export const FullScreenDiv = styled.div`
+//   height: 100vh;
+//   display: flex;
+//   justify-content: center;
+//   flex-direction: column;
+// `;
+
 export const CenteredContainer = styled.div`
   display: flex;
   align-items: center;

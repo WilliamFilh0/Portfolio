@@ -12,6 +12,7 @@ import {
   TextButton,
   FaExternalLinkAltP,
   BsGithubP,
+  IoMdCloseP,
 } from "./styles";
 
 export function Wrapper() {
@@ -22,6 +23,7 @@ export function Wrapper() {
           <WrapperImage />
 
           <WrappedProjectInfo>
+            <IoMdCloseP size={"1.6rem"} />
             <Title>RocketNotes</Title>
 
             <TextDescription>

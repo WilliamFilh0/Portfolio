@@ -6,6 +6,8 @@ import { Projects } from "../components/Projects/projects";
 import { Profile } from "../components/Profile";
 import { Contact } from "../components/Contact/Contact";
 import { Footer } from "../components/Footer/Footer";
+import { ContactArea } from "../components/ContactArea/ContactArea";
+import { Wrapper } from "../components/wraper/wraper";
 
 import {
   AboutMe,
@@ -17,8 +19,8 @@ import {
   ProfileDescription,
   FullHeightContainer,
   ContactContainer,
+  FullScreenDiv,
 } from "./styles";
-import { ContactArea } from "../components/ContactArea/ContactArea";
 
 export function Page() {
   return (
@@ -48,11 +50,14 @@ export function Page() {
           </ProfileSection>
         </CenteredContainer>
       </FullHeightContainer>
-
       <TechnologiesIcons />
       <Projects />
 
+      <Wrapper />
+
       <ContactArea />
+
+      <Footer />
     </>
   );
 }
