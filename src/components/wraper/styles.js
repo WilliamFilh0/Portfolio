@@ -7,11 +7,14 @@ import { IoMdClose } from "react-icons/io";
 import { BsGithub } from "react-icons/bs";
 
 export const Center = styled.div`
-  /* display: flex;
-  align-items: center;
-  justify-content: center; */
+  position: absolute; //Modal posicionamento
+  inset: 0;
 
-  /* top: 83rem; */
+  display: grid;
+  place-content: center;
+  z-index: 3;
+
+  background: rgba(0, 0, 0, 0.7); //Resolver problema de resolução
 
   margin-bottom: 80px; //TIRAR DEPOIS
 `;
@@ -41,9 +44,12 @@ export const IoMdCloseP = styled(IoMdClose)`
   top: 1.6rem;
   right: 1.6rem;
 
+  transition: transform 0.3s;
+
   &:hover {
     color: red;
     cursor: pointer;
+    transform: scale(1.1);
   }
 `;
 

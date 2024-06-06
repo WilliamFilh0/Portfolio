@@ -19,7 +19,6 @@ import {
   ProfileDescription,
   FullHeightContainer,
   ContactContainer,
-  FullScreenDiv,
 } from "./styles";
 
 export function Page() {
@@ -53,7 +52,7 @@ export function Page() {
       <TechnologiesIcons />
       <Projects />
 
-      <Wrapper />
+      {/* <Wrapper /> */}
 
       <ContactArea />
 

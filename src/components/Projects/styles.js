@@ -2,6 +2,11 @@ import styled from "styled-components";
 const rocketNotes = new URL("../../assets/rocketNotes.png ", import.meta.url);
 const feed = new URL("../../assets/feed.png ", import.meta.url);
 
+export const ProjectsContainer = styled.div`
+  position: relative;
+  height: 100vh;
+`;
+
 export const HeaderContainer = styled.div`
   display: flex;
   justify-content: center;
@@ -104,6 +109,14 @@ export const Teste1 = styled.div`
   border-radius: 5px;
 
   background-color: orange;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 24px;
+
+  position: relative;
+  overflow: hidden;
 `;
 
 export const Teste2 = styled.div`
@@ -135,3 +148,24 @@ export const Teste3 = styled.div`
 
   background-color: magenta;
 `;
+
+export const TexComingSoonMessagete = styled.p`
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  transform: rotate(-31deg);
+
+  height: 40px;
+  width: 120%;
+
+  position: absolute;
+
+  background-color: black;
+  color: white;
+`;
+
+// export const WraperPosition = styled(Wrapper)`
+//   position: absolute;
+//   z-index: 1;
+// `;
