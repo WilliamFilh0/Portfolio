@@ -6,13 +6,17 @@ import {
   WrappedProjectInfo,
   Title,
   TextDescription,
-  Technologies,
+  TechnologiesCenter,
+  TechnologiesSmall,
+  TechnologiesMedium,
+  TechnologiesLarge,
   CodeLinkContainer,
   ViewProjectCodeButton,
   TextButton,
   FaExternalLinkAltP,
   BsGithubP,
   IoMdCloseP,
+  TechnologiesExtraLarge,
 } from "./styles";
 
 export function Wrapper({ isOpen, setModalOpen }) {
@@ -36,7 +40,17 @@ export function Wrapper({ isOpen, setModalOpen }) {
                 dados são armazenados de maneira segura no SQLite.
               </TextDescription>
 
-              <Technologies>React</Technologies>
+              <TechnologiesCenter>
+                <TechnologiesSmall>React</TechnologiesSmall>
+                <TechnologiesLarge>Javascript</TechnologiesLarge>
+                <TechnologiesExtraLarge>
+                  Styled-components
+                </TechnologiesExtraLarge>
+                <TechnologiesMedium>Node.js</TechnologiesMedium>
+                <TechnologiesMedium>SQLite</TechnologiesMedium>
+                <TechnologiesSmall>Axios</TechnologiesSmall>
+                <TechnologiesSmall>Vite</TechnologiesSmall>
+              </TechnologiesCenter>
 
               <CodeLinkContainer>
                 <a

@@ -87,13 +87,81 @@ export const TextDescription = styled.p`
   margin-bottom: 15px;
 `;
 
-export const Technologies = styled.div`
+export const TechnologiesCenter = styled.div`
+  display: flex;
+  align-items: center;
+
+  height: 60px;
+  width: 450px;
+
+  flex-wrap: wrap;
+
+  gap: 10px;
+`;
+
+export const TechnologiesSmall = styled.div`
   display: flex;
   align-items: center;
   justify-content: center;
 
   height: 20px;
   width: 50px;
+
+  border-radius: 20px;
+
+  /* background-color: rgb(41, 91, 140); */
+  /* color: white; */
+  background-color: rgb(41, 91, 140);
+  color: white;
+
+  margin-bottom: 10px;
+`;
+
+export const TechnologiesMedium = styled.div`
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  text-align: center;
+
+  height: 20px;
+  width: 70px;
+
+  border-radius: 20px;
+
+  background-color: rgb(41, 91, 140);
+  color: white;
+
+  margin-bottom: 10px;
+`;
+
+export const TechnologiesLarge = styled.div`
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  text-align: center;
+
+  height: 20px;
+  width: 80px;
+
+  border-radius: 20px;
+
+  background-color: rgb(41, 91, 140);
+  color: white;
+
+  margin-bottom: 10px;
+`;
+
+export const TechnologiesExtraLarge = styled.div`
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  text-align: center;
+
+  height: 20px;
+  width: 140px;
 
   border-radius: 20px;
 

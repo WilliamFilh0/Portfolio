@@ -57,6 +57,7 @@ export const ProjectRocketNotes = styled.div`
   &:hover {
     transform: scale(1.1) translateY(-5px);
     border: 1px solid #87ceeb;
+    cursor: pointer;
   }
 `;
 
@@ -80,6 +81,7 @@ export const ProjectFeed = styled.div`
   &:hover {
     transform: scale(1.1) translateY(-5px);
     border: 1px solid #87ceeb;
+    cursor: pointer;
   }
 `;
 
