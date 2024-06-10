@@ -12,10 +12,9 @@ import {
 export function Footer() {
   return (
     <Container>
-      <AuthorSignature>Feito por William</AuthorSignature>
+      <AuthorSignature>Developed by William</AuthorSignature>
       <Contacts>
         <HiOutlineMailP size={44} />
-        <BsTelephoneP size={38} />
         <BsLinkedinP size={39} />
         <BsGithubP size={40} />
       </Contacts>
