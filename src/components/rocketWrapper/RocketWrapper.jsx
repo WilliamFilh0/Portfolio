@@ -19,8 +19,8 @@ import {
   TechnologiesExtraLarge,
 } from "./styles";
 
-export function Wrapper({ isOpen, setModalOpen }) {
-  if (isOpen) {
+export function RocketWrapper({ isOpenRocket, setOpenModalRocket }) {
+  if (isOpenRocket) {
     return (
       <>
         <Center>
@@ -28,7 +28,7 @@ export function Wrapper({ isOpen, setModalOpen }) {
             <WrapperImage />
 
             <WrappedProjectInfo>
-              <IoMdCloseP size={"1.6rem"} onClick={setModalOpen} />
+              <IoMdCloseP size={"1.6rem"} onClick={setOpenModalRocket} />
               <Title>RocketNotes</Title>
 
               <TextDescription>

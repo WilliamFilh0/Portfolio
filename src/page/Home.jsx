@@ -7,7 +7,6 @@ import { Profile } from "../components/Profile";
 import { Contact } from "../components/Contact/Contact";
 import { Footer } from "../components/Footer/Footer";
 import { ContactArea } from "../components/ContactArea/ContactArea";
-import { Wrapper } from "../components/wraper/wraper";
 
 import {
   AboutMe,
@@ -51,8 +50,6 @@ export function Page() {
       </FullHeightContainer>
       <TechnologiesIcons />
       <Projects />
-
-      {/* <Wrapper /> */}
 
       <ContactArea />
 

@@ -15,10 +15,10 @@ import {
   ProjectsContainer,
 } from "./styles";
 
-import { Wrapper } from "../wraper/wraper";
+import { RocketWrapper } from "../rocketWrapper/RocketWrapper";
 
 export function Projects() {
-  const [openModal, setOpenModal] = useState(false);
+  const [openModalRocket, setOpenModalRocket] = useState(false);
   return (
     <>
       <ProjectsContainer>
@@ -27,10 +27,10 @@ export function Projects() {
         </HeaderContainer>
 
         <Container>
-          <ProjectRocketNotes onClick={() => setOpenModal(true)} />
-          <Wrapper
-            isOpen={openModal}
-            setModalOpen={() => setOpenModal(!openModal)}
+          <ProjectRocketNotes onClick={() => setOpenModalRocket(true)} />
+          <RocketWrapper
+            isOpenRocket={openModalRocket}
+            setOpenModalRocket={() => setOpenModalRocket(!openModalRocket)}
           />
           <ProjectFeed />
           <ProjectTrips />
@@ -39,7 +39,6 @@ export function Projects() {
           </Teste1>
           <Teste2 />
           <Teste3 />
-          {/* <Wrapper /> */}
         </Container>
       </ProjectsContainer>
     </>
