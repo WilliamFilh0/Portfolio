@@ -16,9 +16,11 @@ import {
 } from "./styles";
 
 import { RocketWrapper } from "../rocketWrapper/RocketWrapper";
+import { FeedWrapper } from "../feedWrapper/feedWrapper";
 
 export function Projects() {
   const [openModalRocket, setOpenModalRocket] = useState(false);
+  const [openModalFeed, setOpenModalFeed] = useState(false);
   return (
     <>
       <ProjectsContainer>
@@ -32,7 +34,11 @@ export function Projects() {
             isOpenRocket={openModalRocket}
             setOpenModalRocket={() => setOpenModalRocket(!openModalRocket)}
           />
-          <ProjectFeed />
+          <ProjectFeed onClick={() => setOpenModalFeed(true)} />
+          <FeedWrapper
+            isOpenFeed={openModalFeed}
+            setOpenModalFeed={() => setOpenModalFeed(!openModalFeed)}
+          />
           <ProjectTrips />
           <Teste1>
             <TexComingSoonMessagete>Em Breve</TexComingSoonMessagete>
