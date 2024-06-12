@@ -2,6 +2,7 @@ import React from "react";
 import {
   Center,
   WrapperContainer,
+  IoMdCloseP,
   WrapperImage,
   WrappedProjectInfo,
   Title,
@@ -10,13 +11,13 @@ import {
   TechnologiesSmall,
   TechnologiesMedium,
   TechnologiesLarge,
+  TechnologiesExtraLarge,
+  TechnologiesMediumLarge,
   CodeLinkContainer,
   ViewProjectCodeButton,
   TextButton,
   FaExternalLinkAltP,
   BsGithubP,
-  IoMdCloseP,
-  TechnologiesExtraLarge,
 } from "./styles";
 
 export function FeedWrapper({ isOpenFeed, setOpenModalFeed }) {
@@ -32,19 +33,19 @@ export function FeedWrapper({ isOpenFeed, setOpenModalFeed }) {
               <Title>Feed</Title>
 
               <TextDescription>
-                Este projeto é um protótipo de feed interativo, desenvolvido com
+                Este projeto é um protótipo de feed interativo desenvolvido com
                 TypeScript, React, CSS Modules, Phosphor React, Date-fns e Vite.
-                Ele permite criar, postar e excluir comentários, com a
-                possibilidade de incluir qualquer conteúdo e links nos
-                comentários. Os usuários podem curtir os comentários, e os
-                perfis dos usuários são fixos. O objetivo é oferecer uma
-                experiência de feed social dinâmica e rica em funcionalidades.
+                Permite criar, postar e excluir comentários, com a possibilidade
+                de incluir qualquer conteúdo e links nos comentários. Os
+                usuários podem curtir comentários, e os perfis são fixos,
+                proporcionando uma experiência de feed social dinâmica e
+                funcional.
               </TextDescription>
 
               <TechnologiesCenter>
                 <TechnologiesLarge>TypeScript</TechnologiesLarge>
                 <TechnologiesSmall>React</TechnologiesSmall>
-                <TechnologiesExtraLarge>CSS Modules</TechnologiesExtraLarge>
+                <TechnologiesMediumLarge>CSS Modules</TechnologiesMediumLarge>
                 <TechnologiesExtraLarge>Phosphor React</TechnologiesExtraLarge>
                 <TechnologiesLarge>Date-fns</TechnologiesLarge>
                 <TechnologiesSmall>Vite</TechnologiesSmall>

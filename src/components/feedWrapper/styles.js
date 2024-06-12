@@ -58,8 +58,10 @@ export const WrapperImage = styled.div`
   width: 400px;
   background-image: url(${Feed});
   background-size: cover;
-  /* background-size: contain;
-  background-repeat: no-repeat; */
+  background-position: center;
+  background-repeat: no-repeat;
+
+  /* /* background-size: contain; */
   border-radius: 5px;
 
   transition: transform 1s;
@@ -155,6 +157,24 @@ export const TechnologiesLarge = styled.div`
   margin-bottom: 10px;
 `;
 
+export const TechnologiesMediumLarge = styled.div`
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  text-align: center;
+
+  height: 20px;
+  width: 105px;
+
+  border-radius: 20px;
+
+  background-color: rgb(41, 91, 140);
+  color: white;
+
+  margin-bottom: 10px;
+`;
+
 export const TechnologiesExtraLarge = styled.div`
   display: flex;
   align-items: center;
@@ -163,7 +183,7 @@ export const TechnologiesExtraLarge = styled.div`
   text-align: center;
 
   height: 20px;
-  width: 140px;
+  width: 120px;
 
   border-radius: 20px;
 
