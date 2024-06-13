@@ -22,7 +22,7 @@ export const Container = styled.header`
   background-color: rgba(53, 53, 55, 0.2); //cor que esta agora
 `;
 
-export const Ul = styled.ul`
+export const Nav = styled.ul`
   display: flex;
   align-items: center;
 
@@ -30,6 +30,11 @@ export const Ul = styled.ul`
   list-style: none;
 
   margin-right: 0.938rem;
+  color: #c4c4cc;
+`;
+
+export const A = styled.a`
+  text-decoration: none;
   color: #c4c4cc;
 `;
 

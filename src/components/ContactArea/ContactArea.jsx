@@ -12,7 +12,7 @@ import {
   CopyButton,
 } from "./styles";
 
-export function ContactArea() {
+export function ContactArea({ id }) {
   const [email, setEmail] = useState("williamaraujodev@gmail.com");
 
   function handleCopyClick() {
@@ -22,7 +22,7 @@ export function ContactArea() {
 
   return (
     <>
-      <ContactSectionContainer>
+      <ContactSectionContainer id={id}>
         <ContactAreaTitle>Contatos</ContactAreaTitle>
         <ContactMessage>
           Estou aberto a novas oportunidades profissionais.

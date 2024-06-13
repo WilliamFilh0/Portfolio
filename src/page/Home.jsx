@@ -24,7 +24,7 @@ export function Page() {
   return (
     <>
       <Header />
-      <FullHeightContainer>
+      <FullHeightContainer id="About">
         <CenteredContainer>
           <ProfileSection>
             <Profile />
@@ -49,9 +49,10 @@ export function Page() {
         </CenteredContainer>
       </FullHeightContainer>
       <TechnologiesIcons />
-      <Projects />
 
-      <ContactArea />
+      <Projects id="Projects" />
+
+      <ContactArea id="Contact" />
 
       <Footer />
     </>

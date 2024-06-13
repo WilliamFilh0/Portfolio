@@ -16,7 +16,7 @@ export default createGlobalStyle`
     background-color: #a9a9a9;
   }
 
-  
+  scroll-behavior: smooth;
 
   }
 

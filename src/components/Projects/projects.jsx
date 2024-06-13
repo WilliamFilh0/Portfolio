@@ -18,12 +18,12 @@ import {
 import { RocketWrapper } from "../rocketWrapper/RocketWrapper";
 import { FeedWrapper } from "../feedWrapper/feedWrapper";
 
-export function Projects() {
+export function Projects({ id }) {
   const [openModalRocket, setOpenModalRocket] = useState(false);
   const [openModalFeed, setOpenModalFeed] = useState(false);
   return (
     <>
-      <ProjectsContainer>
+      <ProjectsContainer id={id}>
         <HeaderContainer>
           <H1>Projetos</H1>
         </HeaderContainer>
