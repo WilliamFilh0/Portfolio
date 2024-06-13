@@ -6,6 +6,7 @@ export const ContactSectionContainer = styled.div`
   justify-content: center;
   flex-direction: column;
   gap: 30px;
+  margin-top: 100px;
   margin-bottom: 80px; //Tirar depois
 `;
 

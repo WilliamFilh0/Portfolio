@@ -25,6 +25,7 @@ export const HeaderContainer = styled.div`
   justify-content: center;
 
   margin-bottom: 50px;
+  padding-top: 80px;
 `;
 
 export const Container = styled.div`

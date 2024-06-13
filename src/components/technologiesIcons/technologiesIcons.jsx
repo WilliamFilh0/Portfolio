@@ -22,11 +22,11 @@ import {
   TechIconTitle,
 } from "./styles";
 
-export function TechnologiesIcons() {
+export function TechnologiesIcons({ id }) {
   return (
     <>
       <MainContainer>
-        <HeaderContainer>
+        <HeaderContainer id={id}>
           <H1>Habilidades</H1>
         </HeaderContainer>
 

@@ -5,6 +5,7 @@ const feed = new URL("../../assets/feed.png ", import.meta.url);
 export const ProjectsContainer = styled.div`
   position: relative;
   height: 100vh;
+  padding-top: 50px;
 `;
 
 export const HeaderContainer = styled.div`
