@@ -11,9 +11,10 @@ export function Header() {
       </a>
       <Nav>
         {" "}
-        <A href="#About">About</A>
-        <A href=""></A> <A href="#Projects">Projects</A>
-        <A href="#Contact">Contacts</A>
+        <A href="#About">Sobre</A>
+        <A href="#Skills">Habilidades</A>
+        <A href="#Projects">Projetos</A>
+        <A href="#Contact">Contatos</A>
       </Nav>
     </Container>
   );

@@ -48,7 +48,7 @@ export function Page() {
           </ProfileSection>
         </CenteredContainer>
       </FullHeightContainer>
-      <TechnologiesIcons />
+      <TechnologiesIcons id="Skills" />
 
       <Projects id="Projects" />
 
