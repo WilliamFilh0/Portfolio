@@ -96,7 +96,17 @@ export const ProjectTrips = styled.div`
 
   border-radius: 5px;
 
-  background-color: green;
+  /* background-color: green; */
+  background-color: rgba(53, 53, 55, 0.9);
+  border: 1px solid rgb(49, 57, 88);
+
+  position: relative;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  overflow: hidden;
 `;
 
 export const Teste1 = styled.div`
@@ -111,14 +121,16 @@ export const Teste1 = styled.div`
 
   border-radius: 5px;
 
-  background-color: orange;
+  /* background-color: orange; */
+  background-color: rgba(53, 53, 55, 0.9);
+  border: 1px solid rgb(49, 57, 88);
+
+  position: relative;
 
   display: flex;
   align-items: center;
   justify-content: center;
-  font-size: 24px;
 
-  position: relative;
   overflow: hidden;
 `;
 
@@ -134,7 +146,17 @@ export const Teste2 = styled.div`
 
   border-radius: 5px;
 
-  background-color: purple;
+  /* background-color: purple; */
+  background-color: rgba(53, 53, 55, 0.9);
+  border: 1px solid rgb(49, 57, 88);
+
+  position: relative;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  overflow: hidden;
 `;
 
 export const Teste3 = styled.div`
@@ -149,7 +171,17 @@ export const Teste3 = styled.div`
 
   border-radius: 5px;
 
-  background-color: magenta;
+  /* background-color: magenta; */
+  background-color: rgba(53, 53, 55, 0.9);
+  border: 1px solid rgb(49, 57, 88);
+
+  position: relative;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  overflow: hidden;
 `;
 
 export const TexComingSoonMessagete = styled.p`
@@ -159,13 +191,23 @@ export const TexComingSoonMessagete = styled.p`
 
   transform: rotate(-31deg);
 
-  height: 40px;
+  height: 45px;
   width: 120%;
 
   position: absolute;
 
-  background-color: black;
+  /* background-color: black;
+  background-color: rgba(30, 30, 32, 0.6); */
+  background-color: rgba(45, 45, 47, 1);
+
   color: white;
+
+  color: #a9a9a9;
+  font-family: "Roboto Slab", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+
+  font-size: 24px;
 `;
 
 // export const WraperPosition = styled(Wrapper)`

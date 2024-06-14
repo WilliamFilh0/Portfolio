@@ -39,12 +39,21 @@ export function Projects({ id }) {
             isOpenFeed={openModalFeed}
             setOpenModalFeed={() => setOpenModalFeed(!openModalFeed)}
           />
-          <ProjectTrips />
+          <ProjectTrips>
+            {" "}
+            <TexComingSoonMessagete>Em Breve</TexComingSoonMessagete>
+          </ProjectTrips>
           <Teste1>
             <TexComingSoonMessagete>Em Breve</TexComingSoonMessagete>
           </Teste1>
-          <Teste2 />
-          <Teste3 />
+          <Teste2>
+            {" "}
+            <TexComingSoonMessagete>Em Breve</TexComingSoonMessagete>
+          </Teste2>
+          <Teste3>
+            {" "}
+            <TexComingSoonMessagete>Em Breve</TexComingSoonMessagete>
+          </Teste3>
         </Container>
       </ProjectsContainer>
     </>

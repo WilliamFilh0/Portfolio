@@ -9,7 +9,6 @@ import { BsGithub } from "react-icons/bs";
 export const Center = styled.div`
   position: absolute; //Modal posicionamento
   inset: 0;
-
   display: grid;
   place-content: center;
   z-index: 3;
