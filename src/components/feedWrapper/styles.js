@@ -12,7 +12,7 @@ export const Center = styled.div`
 
   display: grid;
   place-content: center;
-  z-index: 3;
+  z-index: 999;
 
   background: rgba(0, 0, 0, 0.7);
 

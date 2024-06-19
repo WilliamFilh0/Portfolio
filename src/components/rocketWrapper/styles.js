@@ -11,7 +11,7 @@ export const Center = styled.div`
   inset: 0;
   display: grid;
   place-content: center;
-  z-index: 3;
+  z-index: 999;
 
   height: 100vh;
   width: 100vw;

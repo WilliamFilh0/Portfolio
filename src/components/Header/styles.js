@@ -6,7 +6,7 @@ export const Container = styled.header`
   align-items: center;
   position: fixed;
   backdrop-filter: blur(60px);
-  z-index: 9999;
+  z-index: 998;
 
   height: 70px;
   width: 100%;
