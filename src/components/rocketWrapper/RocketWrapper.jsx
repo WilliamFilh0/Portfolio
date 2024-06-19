@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import {
   Center,
   WrapperContainer,
@@ -20,6 +20,18 @@ import {
 } from "./styles";
 
 export function RocketWrapper({ isOpenRocket, setOpenModalRocket }) {
+  useEffect(() => {
+    if (isOpenRocket) {
+      document.body.style.overflow = "hidden";
+    } else {
+      document.body.style.overflow = "auto";
+    }
+
+    return () => {
+      document.body.style.overflow = "auto";
+    };
+  }, [isOpenRocket]);
+
   if (isOpenRocket) {
     return (
       <>

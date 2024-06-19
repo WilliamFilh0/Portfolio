@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import {
   Center,
   WrapperContainer,
@@ -21,6 +21,18 @@ import {
 } from "./styles";
 
 export function FeedWrapper({ isOpenFeed, setOpenModalFeed }) {
+  useEffect(() => {
+    if (isOpenFeed) {
+      document.body.style.overflow = "hidden";
+    } else {
+      document.body.style.overflow = "auto";
+    }
+
+    return () => {
+      document.body.style.overflow = "auto";
+    };
+  }, [isOpenFeed]);
+
   if (isOpenFeed) {
     return (
       <>

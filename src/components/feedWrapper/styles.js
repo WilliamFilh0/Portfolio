@@ -7,14 +7,17 @@ import { IoMdClose } from "react-icons/io";
 import { BsGithub } from "react-icons/bs";
 
 export const Center = styled.div`
-  position: absolute; //Modal posicionamento
+  position: fixed; //Modal posicionamento
   inset: 0;
 
   display: grid;
   place-content: center;
   z-index: 3;
 
-  background: rgba(0, 0, 0, 0.7); //Resolver problema de resolução
+  background: rgba(0, 0, 0, 0.7);
+
+  height: 100vh;
+  width: 100vw;
 
   margin-bottom: 80px; //TIRAR DEPOIS
 `;
