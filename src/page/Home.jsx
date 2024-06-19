@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 
 import { Header } from "../components/Header/Header";
 import { TechnologiesIcons } from "../components/technologiesIcons/technologiesIcons";
@@ -7,6 +7,7 @@ import { Profile } from "../components/Profile";
 import { Contact } from "../components/Contact/Contact";
 import { Footer } from "../components/Footer/Footer";
 import { ContactArea } from "../components/ContactArea/ContactArea";
+import { ScrollTopButton } from "../components/ScrollTopButton/ScrollTopButton";
 
 import {
   AboutMe,
@@ -21,6 +22,18 @@ import {
 } from "./styles";
 
 export function Page() {
+  const [showButton, setShowButton] = useState(false);
+
+  useEffect(() => {
+    window.addEventListener("scroll", () => {
+      if (window.scrollY > 100) {
+        setShowButton(true);
+      } else {
+        setShowButton(false);
+      }
+    });
+  }, []);
+
   return (
     <>
       <Header />
@@ -49,10 +62,10 @@ export function Page() {
         </CenteredContainer>
       </FullHeightContainer>
       <TechnologiesIcons id="Skills" />
-
       <Projects id="Projects" />
-
       <ContactArea id="Contact" />
+
+      {showButton && <ScrollTopButton id="About" />}
 
       <Footer />
     </>
