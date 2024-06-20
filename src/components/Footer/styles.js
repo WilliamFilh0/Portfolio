@@ -7,13 +7,15 @@ export const Container = styled.div`
   display: flex;
   align-items: center;
   padding: 20px 2%;
-  justify-content: space-around;
+  /* justify-content: space-around; */
+  justify-content: center;
 
-  height: 100px;
+  /* height: 100px; */
   width: 100%;
 
-  border-top: 1px solid #87ceeb;
+  /* border-top: 1px solid #87ceeb; */
   background-color: rgba(53, 53, 55, 0.2);
+  background-color: rgba(45, 45, 47, 0.6);
 `;
 
 export const Contacts = styled.div`
@@ -21,13 +23,40 @@ export const Contacts = styled.div`
   gap: 20px;
 `;
 
+export const ContainerContact = styled.div`
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  height: 60px;
+  width: 60px;
+
+  background-color: rgba(53, 53, 55, 0.6);
+  border-radius: 20px;
+
+  transition: transform 1s;
+
+  &:hover {
+    transform: scale(1.1) translateY(-5px);
+    cursor: pointer;
+    border: 1px solid #87ceeb;
+  }
+`;
+
 export const AuthorSignature = styled.p`
   font-family: "Roboto Slab", serif;
   font-optical-sizing: auto;
   font-weight: 400;
   font-style: normal;
-  font-size: 1rem;
+  /* font-size: 1rem; */
+  font-size: 14px;
   color: #87ceeb;
+  color: #6b7280;
+
+  a {
+    text-decoration: none;
+    color: purple;
+  }
 `;
 
 export const HiOutlineMailP = styled(HiOutlineMail)`
