@@ -63,128 +63,63 @@ export const TechContainer = styled.div`
   transition: transform 1s;
 
   &:hover {
-    transform: scale(1.2) translateY(-5px);
     cursor: pointer;
+    transform: scale(1.2) translateY(-5px);
+
+    svg {
+      color: #87ceeb;
+    }
   }
 `;
 
 export const FaReactP = styled(FaReact)`
   color: white;
-  /* transition: transform 1s; */
-
-  &:hover {
-    /* transform: scale(1.2) translateY(-5px); */
-    cursor: pointer;
-    color: #87ceeb;
-  }
 `;
 
 export const SiStyledcomponentsP = styled(SiStyledcomponents)`
   color: white;
-
-  &:hover {
-    color: #87ceeb;
-    cursor: pointer;
-  }
 `;
 
 export const SiJavascriptP = styled(SiJavascript)`
   color: white;
-  cursor: pointer;
-
-  &:hover {
-    /* transform: scale(1.2); */
-    color: #87ceeb;
-    cursor: pointer;
-  }
 `;
 
 export const FaHtml5P = styled(FaHtml5)`
   color: white;
-
-  &:hover {
-    color: #87ceeb;
-    cursor: pointer;
-  }
 `;
 
 export const FaGitAltP = styled(FaGitAlt)`
   color: white;
-
-  &:hover {
-    color: #87ceeb;
-    cursor: pointer;
-  }
 `;
 
 export const FaGithubP = styled(FaGithub)`
   color: white;
-
-  &:hover {
-    color: #87ceeb;
-    cursor: pointer;
-  }
 `;
 
 export const BiLogoTypescriptP = styled(BiLogoTypescript)`
   color: white;
-
-  &:hover {
-    color: #87ceeb;
-    cursor: pointer;
-  }
 `;
 
 export const IoLogoCss3P = styled(IoLogoCss3)`
   color: white;
-
-  &:hover {
-    color: #87ceeb;
-    cursor: pointer;
-  }
 `;
 
 export const FaNodeJsP = styled(FaNodeJs)`
   color: white;
-
-  &:hover {
-    color: #87ceeb;
-    cursor: pointer;
-  }
 `;
 
 export const FaFigmaP = styled(FaFigma)`
   color: white;
-
-  &:hover {
-    color: #87ceeb;
-    cursor: pointer;
-  }
 `;
 
 export const RiTailwindCssFillP = styled(RiTailwindCssFill)`
   color: white;
-
-  &:hover {
-    color: #87ceeb;
-    cursor: pointer;
-  }
 `;
 
 export const SiViteP = styled(SiVite)`
   color: white;
-
-  &:hover {
-    color: #87ceeb;
-    cursor: pointer;
-  }
 `;
 
 export const SiNextdotjsP = styled(SiNextdotjs)`
   color: white;
-
-  &:hover {
-    color: #87ceeb;
-    cursor: pointer;
-  }
 `;
