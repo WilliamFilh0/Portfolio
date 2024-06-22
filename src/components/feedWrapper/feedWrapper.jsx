@@ -58,7 +58,7 @@ export function FeedWrapper({ isOpenFeed, setOpenModalFeed }) {
                 <TechnologiesLarge>TypeScript</TechnologiesLarge>
                 <TechnologiesSmall>React</TechnologiesSmall>
                 <TechnologiesMediumLarge>CSS Modules</TechnologiesMediumLarge>
-                <TechnologiesExtraLarge>Phosphor React</TechnologiesExtraLarge>
+                <TechnologiesExtraLarge>Phosphor Icons</TechnologiesExtraLarge>
                 <TechnologiesLarge>Date-fns</TechnologiesLarge>
                 <TechnologiesSmall>Vite</TechnologiesSmall>
               </TechnologiesCenter>

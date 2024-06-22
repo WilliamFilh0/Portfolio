@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { HiOutlineMail } from "react-icons/hi";
 import { SiGithub } from "react-icons/si";
 import { BsLinkedin } from "react-icons/bs";
+import { MdOutlineEmail } from "react-icons/md";
 
 import { ToastContainer, toast } from "react-toastify";
 
@@ -60,7 +61,7 @@ export function ContactArea({ id }) {
 
           <a href="mailto:williamaraujodev@gmail.com" target="_blank">
             <ButtonContact>
-              <HiOutlineMail size={"1rem"} /> Email
+              <MdOutlineEmail size={"1.063rem"} /> Email
             </ButtonContact>
           </a>
 

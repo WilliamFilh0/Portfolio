@@ -26,7 +26,7 @@ export const Nav = styled.ul`
   display: flex;
   align-items: center;
 
-  gap: 0.938rem;
+  gap: 0.813rem;
   list-style: none;
 
   margin-right: 0.938rem;
@@ -38,6 +38,10 @@ export const A = styled.a`
   color: #c4c4cc;
   position: relative;
   display: inline-block;
+
+  font-family: "Lato", sans-serif;
+  font-weight: 600;
+  font-size: 16px;
 
   &::after {
     content: "";

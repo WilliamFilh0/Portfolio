@@ -8,7 +8,7 @@ import {
   FaHtml5P,
   FaGitAltP,
   FaGithubP,
-  BiLogoTypescriptP,
+  SiTypescriptP,
   IoLogoCss3P,
   FaNodeJsP,
   FaFigmaP,
@@ -47,7 +47,7 @@ export function TechnologiesIcons({ id }) {
           </TechContainer>
 
           <TechContainer>
-            <BiLogoTypescriptP size="2.5rem" />
+            <SiTypescriptP size="2.5rem" />
             <TechIconTitle>TypeScript</TechIconTitle>
           </TechContainer>
           {/* size="3.25rem" */}

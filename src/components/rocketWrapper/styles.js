@@ -78,6 +78,10 @@ export const WrappedProjectInfo = styled.div`
 
 export const Title = styled.h1`
   color: white;
+
+  font-family: "Roboto Slab", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
 `;
 
 export const TextDescription = styled.p`
@@ -87,6 +91,10 @@ export const TextDescription = styled.p`
 
   color: white;
   margin-bottom: 15px;
+
+  font-family: "Roboto Slab", serif;
+  font-style: normal;
+  font-size: 14px;
 `;
 
 export const TechnologiesCenter = styled.div`
@@ -117,6 +125,10 @@ export const TechnologiesSmall = styled.div`
   color: white;
 
   margin-bottom: 10px;
+
+  font-family: "Roboto Slab", serif;
+  font-style: normal;
+  font-size: 14px;
 `;
 
 export const TechnologiesMedium = styled.div`
@@ -135,6 +147,10 @@ export const TechnologiesMedium = styled.div`
   color: white;
 
   margin-bottom: 10px;
+
+  font-family: "Roboto Slab", serif;
+  font-style: normal;
+  font-size: 14px;
 `;
 
 export const TechnologiesLarge = styled.div`
@@ -153,6 +169,10 @@ export const TechnologiesLarge = styled.div`
   color: white;
 
   margin-bottom: 10px;
+
+  font-family: "Roboto Slab", serif;
+  font-style: normal;
+  font-size: 14px;
 `;
 
 export const TechnologiesExtraLarge = styled.div`
@@ -171,6 +191,10 @@ export const TechnologiesExtraLarge = styled.div`
   color: white;
 
   margin-bottom: 10px;
+
+  font-family: "Roboto Slab", serif;
+  font-style: normal;
+  font-size: 14px;
 `;
 
 export const CodeLinkContainer = styled.div`

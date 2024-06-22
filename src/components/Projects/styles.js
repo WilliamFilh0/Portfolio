@@ -3,7 +3,6 @@ const rocketNotes = new URL("../../assets/rocketNotes.png ", import.meta.url);
 const feed = new URL("../../assets/feed.png ", import.meta.url);
 
 export const ProjectsContainer = styled.div`
-  position: relative;
   height: 100vh;
   padding-top: 50px;
 `;
@@ -19,6 +18,12 @@ export const HeaderContainer = styled.div`
 
 export const H1 = styled.h1`
   color: #c4c4cc;
+
+  font-family: "Lato", sans-serif;
+  font-weight: 900;
+  font-style: italic;
+
+  color: white;
 `;
 
 export const Container = styled.div`
@@ -202,15 +207,14 @@ export const TexComingSoonMessagete = styled.p`
 
   color: white;
 
-  color: #a9a9a9;
+  font-family: "Lato", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+  color: #c4c4cc;
+
+  /* color: #a9a9a9;
   font-family: "Roboto Slab", serif;
   font-optical-sizing: auto;
-  font-weight: 400;
-
+  font-weight: 400;*/
   font-size: 24px;
 `;
-
-// export const WraperPosition = styled(Wrapper)`
-//   position: absolute;
-//   z-index: 1;
-// `;

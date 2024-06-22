@@ -6,6 +6,7 @@ import {
   SiJavascript,
   SiVite,
   SiNextdotjs,
+  SiTypescript,
 } from "react-icons/si";
 import { BiLogoTypescript } from "react-icons/bi";
 import { IoLogoCss3 } from "react-icons/io";
@@ -16,7 +17,10 @@ export const MainContainer = styled.div`
 `;
 
 export const H1 = styled.h1`
-  color: #c4c4cc;
+  font-family: "Lato", sans-serif;
+  font-weight: 900;
+  font-style: italic;
+  color: white;
 `;
 
 export const HeaderContainer = styled.div`
@@ -40,7 +44,12 @@ export const Container = styled.div`
 `;
 
 export const TechIconTitle = styled.p`
+  font-family: "Roboto Slab", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
   color: white;
+
+  font-size: 15px;
 `;
 
 export const TechContainer = styled.div`
@@ -96,7 +105,7 @@ export const FaGithubP = styled(FaGithub)`
   color: white;
 `;
 
-export const BiLogoTypescriptP = styled(BiLogoTypescript)`
+export const SiTypescriptP = styled(SiTypescript)`
   color: white;
 `;
 
