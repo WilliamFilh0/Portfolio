@@ -18,20 +18,20 @@ export const Center = styled.div`
 
   background: rgba(0, 0, 0, 0.7);
 
-  margin-bottom: 80px; //TIRAR DEPOIS
+  margin-bottom: 5rem; //TIRAR DEPOIS
 `;
 
 export const WrapperContainer = styled.div`
-  height: 400px;
-  width: 900px;
+  height: 25rem;
+  width: 56.25rem;
   background-color: rgba(53, 53, 55, 0.9);
-  border-radius: 20px;
+  border-radius: 1.25rem;
 
   display: flex;
   align-items: center;
   justify-content: space-between;
 
-  padding: 15px;
+  padding: 0.938rem;
 
   position: relative;
 
@@ -56,11 +56,11 @@ export const IoMdCloseP = styled(IoMdClose)`
 `;
 
 export const WrapperImage = styled.div`
-  height: 300px;
-  width: 400px;
+  height: 18.75rem;
+  width: 25rem;
   background-image: url(${RocketNotes});
   background-size: cover;
-  border-radius: 5px;
+  border-radius: 0.313rem;
 
   transition: transform 1s;
 
@@ -73,7 +73,7 @@ export const WrapperImage = styled.div`
 export const WrappedProjectInfo = styled.div`
   display: flex;
   flex-direction: column;
-  gap: 15px;
+  gap: 0.938rem;
 `;
 
 export const Title = styled.h1`
@@ -85,28 +85,28 @@ export const Title = styled.h1`
 `;
 
 export const TextDescription = styled.p`
-  width: 440px;
+  width: 27.5rem;
   /* width: 352px; */
-  height: 110px;
+  height: 6.875rem;
 
   color: white;
-  margin-bottom: 15px;
+  margin-bottom: 0.938rem;
 
   font-family: "Roboto Slab", serif;
   font-style: normal;
-  font-size: 14px;
+  font-size: 0.875rem;
 `;
 
 export const TechnologiesCenter = styled.div`
   display: flex;
   align-items: center;
 
-  height: 60px;
-  width: 450px;
+  height: 3.75rem;
+  width: 28.125rem;
 
   flex-wrap: wrap;
 
-  gap: 10px;
+  gap: 0.625rem;
 `;
 
 export const TechnologiesSmall = styled.div`
@@ -114,21 +114,21 @@ export const TechnologiesSmall = styled.div`
   align-items: center;
   justify-content: center;
 
-  height: 20px;
-  width: 50px;
+  height: 1.25rem;
+  width: 3.125rem;
 
-  border-radius: 20px;
+  border-radius: 1.25rem;
 
   /* background-color: rgb(41, 91, 140); */
   /* color: white; */
   background-color: rgb(41, 91, 140);
   color: white;
 
-  margin-bottom: 10px;
+  margin-bottom: 0.625rem;
 
   font-family: "Roboto Slab", serif;
   font-style: normal;
-  font-size: 14px;
+  font-size: 0.875rem;
 `;
 
 export const TechnologiesMedium = styled.div`
@@ -138,19 +138,19 @@ export const TechnologiesMedium = styled.div`
 
   text-align: center;
 
-  height: 20px;
-  width: 70px;
+  height: 1.25rem;
+  width: 4.375rem;
 
-  border-radius: 20px;
+  border-radius: 1.25rem;
 
   background-color: rgb(41, 91, 140);
   color: white;
 
-  margin-bottom: 10px;
+  margin-bottom: 0.625rem;
 
   font-family: "Roboto Slab", serif;
   font-style: normal;
-  font-size: 14px;
+  font-size: 0.875rem;
 `;
 
 export const TechnologiesLarge = styled.div`
@@ -160,19 +160,19 @@ export const TechnologiesLarge = styled.div`
 
   text-align: center;
 
-  height: 20px;
-  width: 80px;
+  height: 1.25rem;
+  width: 5rem;
 
-  border-radius: 20px;
+  border-radius: 1.25rem;
 
   background-color: rgb(41, 91, 140);
   color: white;
 
-  margin-bottom: 10px;
+  margin-bottom: 0.625rem;
 
   font-family: "Roboto Slab", serif;
   font-style: normal;
-  font-size: 14px;
+  font-size: 0.875rem;
 `;
 
 export const TechnologiesExtraLarge = styled.div`
@@ -182,30 +182,30 @@ export const TechnologiesExtraLarge = styled.div`
 
   text-align: center;
 
-  height: 20px;
-  width: 140px;
+  height: 1.25rem;
+  width: 8.75rem;
 
-  border-radius: 20px;
+  border-radius: 1.25rem;
 
   background-color: rgb(41, 91, 140);
   color: white;
 
-  margin-bottom: 10px;
+  margin-bottom: 0.625rem;
 
   font-family: "Roboto Slab", serif;
   font-style: normal;
-  font-size: 14px;
+  font-size: 0.875rem;
 `;
 
 export const CodeLinkContainer = styled.div`
   display: flex;
   align-items: center;
-  gap: 10px;
+  gap: 0.625rem;
 `;
 
 export const ViewProjectCodeButton = styled.button`
-  height: 30px;
-  width: 40px;
+  height: 1.875rem;
+  width: 2.5rem;
 
   border: none;
   background: none;
@@ -213,7 +213,7 @@ export const ViewProjectCodeButton = styled.button`
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 10px;
+  gap: 0.625rem;
 
   &:hover {
     cursor: pointer;

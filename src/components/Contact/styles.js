@@ -8,7 +8,7 @@ export const Center = styled.div`
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 15px;
+  gap: 0.938rem;
 `;
 
 export const Container = styled.div`
@@ -16,10 +16,10 @@ export const Container = styled.div`
   align-items: center;
   justify-content: center;
 
-  height: 70px;
-  width: 70px;
+  height: 4.375rem;
+  width: 4.375rem;
   background-color: rgba(53, 53, 55, 0.9);
-  border-radius: 20px;
+  border-radius: 1.25rem;
 
   transition: transform 1s;
 

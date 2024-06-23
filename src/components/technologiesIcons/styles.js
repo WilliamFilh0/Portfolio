@@ -13,7 +13,7 @@ import { IoLogoCss3 } from "react-icons/io";
 import { RiTailwindCssFill } from "react-icons/ri";
 
 export const MainContainer = styled.div`
-  margin-top: 40px; //TIRAR DEPOIS
+  margin-top: 2.5rem; //TIRAR DEPOIS
 `;
 
 export const H1 = styled.h1`
@@ -28,8 +28,8 @@ export const HeaderContainer = styled.div`
   align-items: center;
   justify-content: center;
 
-  margin-bottom: 50px;
-  padding-top: 80px;
+  margin-bottom: 3.125rem;
+  padding-top: 5rem;
 `;
 
 export const Container = styled.div`
@@ -49,21 +49,21 @@ export const TechIconTitle = styled.p`
   font-weight: 400;
   color: white;
 
-  font-size: 15px;
+  font-size: 0.938rem;
 `;
 
 export const TechContainer = styled.div`
   display: flex;
   flex-direction: column;
 
-  gap: 5px;
+  gap: 0.313rem;
   align-items: center;
   justify-content: center;
 
   height: 5.625rem;
   width: 5.625rem;
 
-  border-radius: 20px;
+  border-radius: 1.25rem;
 
   /* background-color: rgba(28, 28, 30, 0.2); Cor que estava antes*/
   /* background-color: rgba(48, 48, 50, 0.9); */

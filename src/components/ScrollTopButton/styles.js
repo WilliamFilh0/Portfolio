@@ -2,12 +2,12 @@ import styled from "styled-components";
 import { PiArrowBendRightUpBold } from "react-icons/pi";
 
 export const Container = styled.button`
-  height: 50px;
-  width: 50px;
+  height: 3.125rem;
+  width: 3.125rem;
 
   position: fixed;
-  bottom: 20px;
-  right: 20px;
+  bottom: 1.25rem;
+  right: 1.25rem;
   z-index: 998;
 
   background-color: rgba(53, 53, 55, 0.6);

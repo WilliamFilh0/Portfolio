@@ -8,7 +8,7 @@ export const Container = styled.header`
   backdrop-filter: blur(60px);
   z-index: 998;
 
-  height: 70px;
+  height: 4.375rem;
   width: 100%;
 
   border-bottom: 1px solid #87ceeb;
@@ -41,13 +41,13 @@ export const A = styled.a`
 
   font-family: "Lato", sans-serif;
   font-weight: 600;
-  font-size: 16px;
+  font-size: 1rem;
 
   &::after {
     content: "";
     position: absolute;
     width: 0;
-    height: 4px;
+    height: 0.25rem;
     bottom: -5px;
     left: 50%;
     transform: translateX(-50%);
@@ -78,6 +78,6 @@ export const A = styled.a`
 `;
 
 export const Img = styled.img`
-  height: 50px;
-  margin-left: 30px;
+  height: 3.125rem;
+  margin-left: 1.875rem;
 `;

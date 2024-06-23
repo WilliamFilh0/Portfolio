@@ -8,7 +8,7 @@ export default createGlobalStyle`
 
     
   ::-webkit-scrollbar {
-    width: 8px;
+    width: 0.5rem;
     background-color: rgba(53, 53, 55, 0.9);
   }
 

@@ -4,7 +4,7 @@ const feed = new URL("../../assets/feed.png ", import.meta.url);
 
 export const ProjectsContainer = styled.div`
   height: 100vh;
-  padding-top: 50px;
+  padding-top: 3.125rem;
 `;
 
 export const HeaderContainer = styled.div`
@@ -12,7 +12,7 @@ export const HeaderContainer = styled.div`
   justify-content: center;
   align-items: center;
 
-  margin-top: 60px; //TIRAR DEPOIS
+  margin-top: 3.75rem; //TIRAR DEPOIS
   margin-bottom: 3.125rem;
 `;
 
@@ -40,7 +40,7 @@ export const Container = styled.div`
     "ProjectRocketNotes  ProjectFeed ProjectTrips"
     "Teste1 Teste2 Teste3";
 
-  margin-bottom: 200px; //Tirar depois
+  margin-bottom: 12.5rem; //Tirar depois
 `;
 
 export const ProjectRocketNotes = styled.div`
@@ -54,11 +54,11 @@ export const ProjectRocketNotes = styled.div`
   background-image: url(${rocketNotes});
   background-size: cover;
 
-  background-color: red;
+  /* background-color: red; */
 
   transition: transform 1s;
 
-  border-radius: 5px;
+  border-radius: 0.313rem;
 
   &:hover {
     transform: scale(1.1) translateY(-5px);
@@ -78,9 +78,9 @@ export const ProjectFeed = styled.div`
   /* height: 325px;
   width: 525px; */
 
-  border-radius: 5px;
+  border-radius: 0.313rem;
 
-  background-color: blue;
+  /* background-color: blue; */
 
   transition: transform 1s;
 
@@ -99,7 +99,7 @@ export const ProjectTrips = styled.div`
   /* height: 325px;
   width: 525px; */
 
-  border-radius: 5px;
+  border-radius: 0.313rem;
 
   /* background-color: green; */
   background-color: rgba(53, 53, 55, 0.9);
@@ -122,9 +122,9 @@ export const Teste1 = styled.div`
   /* height: 325px;
   width: 525px; */
 
-  margin-top: 20px;
+  margin-top: 1.25rem;
 
-  border-radius: 5px;
+  border-radius: 0.313rem;
 
   /* background-color: orange; */
   background-color: rgba(53, 53, 55, 0.9);
@@ -147,9 +147,9 @@ export const Teste2 = styled.div`
   /* height: 325px;
   width: 525px; */
 
-  margin-top: 20px;
+  margin-top: 1.25rem;
 
-  border-radius: 5px;
+  border-radius: 0.313rem;
 
   /* background-color: purple; */
   background-color: rgba(53, 53, 55, 0.9);
@@ -172,9 +172,9 @@ export const Teste3 = styled.div`
   /* height: 325px;
   width: 525px; */
 
-  margin-top: 20px;
+  margin-top: 1.25rem;
 
-  border-radius: 5px;
+  border-radius: 0.313rem;
 
   /* background-color: magenta; */
   background-color: rgba(53, 53, 55, 0.9);
@@ -196,7 +196,7 @@ export const TexComingSoonMessagete = styled.p`
 
   transform: rotate(-31deg);
 
-  height: 45px;
+  height: 2.813rem;
   width: 120%;
 
   position: absolute;
@@ -216,5 +216,5 @@ export const TexComingSoonMessagete = styled.p`
   font-family: "Roboto Slab", serif;
   font-optical-sizing: auto;
   font-weight: 400;*/
-  font-size: 24px;
+  font-size: 1.5rem;
 `;

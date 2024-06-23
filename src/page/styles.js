@@ -71,7 +71,7 @@ export const AboutTitle = styled.p`
   font-optical-sizing: auto;
   font-weight: 700;
   font-style: normal;
-  font-size: 20px;
+  font-size: 1.25rem;
 
   color: blue;
   margin-bottom: 1.563rem;
@@ -81,7 +81,7 @@ export const NameTitle = styled.h1`
   font-family: "Roboto Slab", serif;
   font-optical-sizing: auto;
   font-weight: 700;
-  font-size: 33px;
+  font-size: 2.063rem;
   margin-bottom: 1.563rem;
 `;
 
@@ -89,7 +89,7 @@ export const RoleTitle = styled.h2`
   font-family: "Roboto Slab", serif;
   font-optical-sizing: auto;
   font-style: normal;
-  font-size: 18px;
+  font-size: 1.125rem;
   margin-bottom: 2.75rem;
 `;
 

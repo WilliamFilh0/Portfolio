@@ -5,9 +5,9 @@ export const ContactSectionContainer = styled.div`
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  gap: 30px;
-  margin-top: 100px;
-  margin-bottom: 40px; //Tirar depois
+  gap: 1.875rem;
+  margin-top: 6.25rem;
+  margin-bottom: 2.5rem; //Tirar depois
 `;
 
 export const ContactAreaTitle = styled.h1`
@@ -29,7 +29,7 @@ export const ContactButtonContainer = styled.div`
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 20px;
+  gap: 1.25rem;
 
   a {
     text-decoration: none;
@@ -37,22 +37,22 @@ export const ContactButtonContainer = styled.div`
 `;
 
 export const ButtonContact = styled.button`
-  margin-top: 20px;
+  margin-top: 1.25rem;
   display: flex;
   align-items: center;
   justify-content: center;
 
-  height: 40px;
-  width: 120px;
+  height: 2.5rem;
+  width: 7.5rem;
   background-color: rgba(53, 53, 55, 0.9);
-  border-radius: 20px;
+  border-radius: 1.5rem;
   color: white;
-  gap: 7px;
+  gap: 0.438rem;
 
   font-family: "Roboto Slab", serif;
   font-optical-sizing: auto;
   font-weight: 400;
-  font-size: 14px;
+  font-size: 0.875rem;
 
   transition: transform 1s;
 
@@ -64,18 +64,18 @@ export const ButtonContact = styled.button`
 `;
 
 export const CopyButton = styled.button`
-  height: 40px;
-  width: 200px;
+  height: 2.5rem;
+  width: 12.5rem;
 
   font-family: "Roboto Slab", serif;
   font-optical-sizing: auto;
   font-weight: 400;
-  font-size: 14px;
+  font-size: 0.875rem;
 
   background-color: rgba(53, 53, 55, 0.9);
   color: white;
 
-  border-radius: 20px;
+  border-radius: 1.25rem;
 
   transition: transform 1s;
 
