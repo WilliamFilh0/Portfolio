@@ -14,6 +14,15 @@ import { RiTailwindCssFill } from "react-icons/ri";
 
 export const MainContainer = styled.div`
   margin-top: 2.5rem; //TIRAR DEPOIS
+
+  @media (max-width: 1440px) {
+    width: 1170px;
+
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 80px;
+    padding-bottom: 60px;
+  }
 `;
 
 export const H1 = styled.h1`
@@ -41,6 +50,10 @@ export const Container = styled.div`
 
   gap: 2rem;
   /* gap: 3.125rem; */
+
+  @media (max-width: 1440px) {
+    flex-wrap: wrap;
+  }
 `;
 
 export const TechIconTitle = styled.p`

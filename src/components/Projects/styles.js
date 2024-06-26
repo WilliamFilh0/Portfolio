@@ -5,6 +5,10 @@ const feed = new URL("../../assets/feed.png ", import.meta.url);
 export const ProjectsContainer = styled.div`
   height: 100vh;
   padding-top: 3.125rem;
+
+  @media (max-width: 1440px) {
+    padding-top: 1.25rem;
+  }
 `;
 
 export const HeaderContainer = styled.div`
@@ -41,6 +45,10 @@ export const Container = styled.div`
     "Teste1 Teste2 Teste3";
 
   margin-bottom: 12.5rem; //Tirar depois
+
+  @media (max-width: 1440px) {
+    margin-left: 50px;
+  }
 `;
 
 export const ProjectRocketNotes = styled.div`
@@ -65,6 +73,13 @@ export const ProjectRocketNotes = styled.div`
     border: 1px solid #87ceeb;
     cursor: pointer;
   }
+
+  @media (max-width: 1440px) {
+    height: 180px;
+    width: 328px;
+    height: 181.92px;
+    width: 324.72px;
+  }
 `;
 
 export const ProjectFeed = styled.div`
@@ -83,6 +98,11 @@ export const ProjectFeed = styled.div`
   /* background-color: blue; */
 
   transition: transform 1s;
+
+  @media (max-width: 1440px) {
+    height: 180px;
+    width: 328px;
+  }
 
   &:hover {
     transform: scale(1.1) translateY(-5px);
@@ -112,6 +132,11 @@ export const ProjectTrips = styled.div`
   justify-content: center;
 
   overflow: hidden;
+
+  @media (max-width: 1440px) {
+    height: 180px;
+    width: 328px;
+  }
 `;
 
 export const Teste1 = styled.div`
@@ -137,6 +162,11 @@ export const Teste1 = styled.div`
   justify-content: center;
 
   overflow: hidden;
+
+  @media (max-width: 1440px) {
+    height: 180px;
+    width: 328px;
+  }
 `;
 
 export const Teste2 = styled.div`
@@ -162,6 +192,11 @@ export const Teste2 = styled.div`
   justify-content: center;
 
   overflow: hidden;
+
+  @media (max-width: 1440px) {
+    height: 180px;
+    width: 328px;
+  }
 `;
 
 export const Teste3 = styled.div`
@@ -187,6 +222,11 @@ export const Teste3 = styled.div`
   justify-content: center;
 
   overflow: hidden;
+
+  @media (max-width: 1440px) {
+    height: 180px;
+    width: 328px;
+  }
 `;
 
 export const TexComingSoonMessagete = styled.p`

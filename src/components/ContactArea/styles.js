@@ -8,6 +8,10 @@ export const ContactSectionContainer = styled.div`
   gap: 1.875rem;
   margin-top: 6.25rem;
   margin-bottom: 2.5rem; //Tirar depois
+
+  @media (max-width: 1440px) {
+    padding-top: 80px;
+  }
 `;
 
 export const ContactAreaTitle = styled.h1`

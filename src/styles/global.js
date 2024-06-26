@@ -19,6 +19,14 @@ export default createGlobalStyle`
   scroll-behavior: smooth;
 
   }
+/*   
+@media (max-width: 1440px) { /* 768px */
+    /* html { */
+        /* font-size: 10.5px; 1rem = 14px */
+    /* } */
+/* }  */
+
+
 
   body{
     min-height: 100vh;

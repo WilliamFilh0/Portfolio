@@ -29,20 +29,6 @@ export const UserProfile = styled.div`
   align-items: center;
   justify-content: center;
 
-  /* clip-path: polygon(0% 0%, 100% 0%, 80% 100%, 20% 100%); */
-  /* clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%); */
-
-  /* clip-path: polygon(
-    50% 0%,
-    90% 10%,
-    100% 50%,
-    90% 90%,
-    50% 100%,
-    10% 90%,
-    0% 50%,
-    10% 10%
-  ); */
-
   animation: ${float} 5s ease-in-out infinite;
 
   //De cima(escuro) pra baixo(claro)
@@ -52,6 +38,13 @@ export const UserProfile = styled.div`
     rgba(9, 9, 121, 1) 35%,
     rgba(0, 212, 255, 1) 100%
   );
+
+  //Posicionamento em telas menores
+
+  @media (max-width: 1440px) {
+    height: 320px;
+    width: 320px;
+  }
 
   //Circular
   /* background: radial-gradient(
@@ -81,16 +74,31 @@ export const UserProfile = styled.div`
   border: 1px solid blue; */
 `;
 
+//Imagem minha
 export const Img = styled.img`
   height: 25rem;
   /* height: 300px; */
   position: relative;
   z-index: 2;
+
+  @media (max-width: 1440px) {
+    height: 320px;
+    width: 300px;
+  }
 `;
 
+//Bob flutuante
 export const ImgBackground = styled.img`
   height: 25rem;
   /* height: 300px; */
   position: absolute;
   z-index: 1;
+
+  @media (max-width: 1440px) {
+    height: 320px;
+    width: 400px;
+
+    //Mudando o tamnho do bob
+    width: 380px;
+  }
 `;
