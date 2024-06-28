@@ -9,6 +9,17 @@ export const ProjectsContainer = styled.div`
   @media (max-width: 1440px) {
     padding-top: 1.25rem;
   }
+
+  @media (max-width: 750px) {
+    height: 1270px;
+  }
+
+  @media (max-width: 870px) {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
 `;
 
 export const HeaderContainer = styled.div`
@@ -46,16 +57,77 @@ export const Container = styled.div`
 
   margin-bottom: 12.5rem; //Tirar depois
 
+  @media (max-width: 1690px) {
+    margin-left: 60px;
+  }
+
+  @media (max-width: 1550px) {
+    margin-left: 0px;
+  }
+
   @media (max-width: 1440px) {
     margin-left: 50px;
+    margin-bottom: 0px;
+    /* background-color: orange; */
+  }
+
+  /* @media (max-width: 1366px) {
+  } */
+
+  @media (max-width: 1050px) {
+    /* background-color: blue; */
+    margin-left: 0;
+  }
+
+  @media (max-width: 870px) {
+    /* margin-left: auto;
+    margin-right: auto; */
+    width: 680px;
+
+    margin-left: 0;
+
+    /* background-color: white; */
+
+    /* background-color: red; */
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+
+    grid-template-areas:
+      "ProjectRocketNotes ProjectFeed "
+      "Teste1 ProjectTrips "
+      "Teste2  Teste3";
+  }
+
+  @media (max-width: 750px) {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+
+    /* background-color: bisque; */
+    margin-left: 0;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+
+    grid-template-areas:
+      "ProjectRocketNotes"
+      "ProjectFeed"
+      "ProjectTrips"
+      "Teste1"
+      "Teste2"
+      "Teste3";
+  }
+
+  @media (max-width: 550px) {
+    /* background-color: blueviolet; */
   }
 `;
 
 export const ProjectRocketNotes = styled.div`
   grid-area: ProjectRocketNotes;
 
-  height: 20.313rem;
-  width: 32.813rem;
+  height: 20.313rem; //325px
+  width: 32.813rem; //525px
   /* height: 325px;
   width: 525px; */
 
@@ -74,11 +146,19 @@ export const ProjectRocketNotes = styled.div`
     cursor: pointer;
   }
 
+  @media (max-width: 1690px) {
+    height: 18.2817rem; // 292px
+    width: 29.5317rem; // 472px
+  }
+
   @media (max-width: 1440px) {
     height: 180px;
     width: 328px;
-    height: 181.92px;
-    width: 324.72px;
+  }
+
+  @media (max-width: 1024px) {
+    height: 162px;
+    width: 295.2px;
   }
 `;
 
@@ -99,9 +179,19 @@ export const ProjectFeed = styled.div`
 
   transition: transform 1s;
 
+  @media (max-width: 1690px) {
+    height: 18.2817rem; // 292px
+    width: 29.5317rem; // 472px
+  }
+
   @media (max-width: 1440px) {
     height: 180px;
     width: 328px;
+  }
+
+  @media (max-width: 1024px) {
+    height: 162px;
+    width: 295.2px;
   }
 
   &:hover {
@@ -133,9 +223,18 @@ export const ProjectTrips = styled.div`
 
   overflow: hidden;
 
+  @media (max-width: 1690px) {
+    height: 18.2817rem; // 292px
+    width: 29.5317rem; // 472px
+  }
+
   @media (max-width: 1440px) {
     height: 180px;
     width: 328px;
+  }
+  @media (max-width: 1024px) {
+    height: 162px;
+    width: 295.2px;
   }
 `;
 
@@ -163,9 +262,31 @@ export const Teste1 = styled.div`
 
   overflow: hidden;
 
+  @media (max-width: 1690px) {
+    height: 18.2817rem; // 292px
+    width: 29.5317rem; // 472px
+  }
+
   @media (max-width: 1440px) {
     height: 180px;
     width: 328px;
+    /* margin-top: 0; */
+  }
+
+  @media (max-width: 865px) {
+    height: 180px;
+    width: 328px;
+    margin-top: 0;
+  }
+  @media (max-width: 900px) {
+    height: 180px;
+    width: 328px;
+    /* margin-top: 0; */
+  }
+
+  @media (max-width: 1024px) {
+    height: 162px;
+    width: 295.2px;
   }
 `;
 
@@ -193,9 +314,19 @@ export const Teste2 = styled.div`
 
   overflow: hidden;
 
+  @media (max-width: 1690px) {
+    height: 18.2817rem; // 292px
+    width: 29.5317rem; // 472px
+  }
+
   @media (max-width: 1440px) {
     height: 180px;
     width: 328px;
+  }
+
+  @media (max-width: 1024px) {
+    height: 162px;
+    width: 295.2px;
   }
 `;
 
@@ -223,9 +354,19 @@ export const Teste3 = styled.div`
 
   overflow: hidden;
 
+  @media (max-width: 1690px) {
+    height: 18.2817rem; // 292px
+    width: 29.5317rem; // 472px
+  }
+
   @media (max-width: 1440px) {
     height: 180px;
     width: 328px;
+  }
+
+  @media (max-width: 1024px) {
+    height: 162px;
+    width: 295.2px;
   }
 `;
 
