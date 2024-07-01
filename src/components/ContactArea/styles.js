@@ -10,7 +10,33 @@ export const ContactSectionContainer = styled.div`
   margin-bottom: 2.5rem; //Tirar depois
 
   @media (max-width: 1440px) {
-    padding-top: 80px;
+    padding-top: 60px;
+  }
+
+  @media (max-width: 1366px) {
+    /* background-color: blanchedalmond; */
+  }
+
+  @media (max-width: 1050px) {
+    /* background-color: blue; */
+  }
+
+  @media (max-width: 1024px) {
+    /* background-color: orange; */
+  }
+
+  @media (max-width: 870px) {
+    /* background-color: white; */
+    margin-top: 180px;
+    /* margin-top: 40px; */
+  }
+
+  @media (max-width: 750px) {
+    /* background-color: aqua; */
+  }
+
+  @media (max-width: 550px) {
+    /* background-color: blueviolet; */
   }
 `;
 

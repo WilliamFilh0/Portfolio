@@ -8,10 +8,9 @@ export const ProjectsContainer = styled.div`
 
   @media (max-width: 1440px) {
     padding-top: 1.25rem;
-  }
+    height: 470px;
 
-  @media (max-width: 750px) {
-    height: 1270px;
+    margin-left: 50px; //Centralizar
   }
 
   @media (max-width: 870px) {
@@ -19,6 +18,15 @@ export const ProjectsContainer = styled.div`
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    /* padding-top: 300px; */
+    height: 720px;
+    padding-top: 30px;
+    /* background-color: red; */
+  }
+
+  @media (max-width: 750px) {
+    height: 1270px;
+    /* background-color: blueviolet; */
   }
 `;
 
@@ -86,7 +94,7 @@ export const Container = styled.div`
 
     margin-left: 0;
 
-    /* background-color: white; */
+    /* background-color: black; */
 
     /* background-color: red; */
     grid-template-columns: 1fr 1fr;
