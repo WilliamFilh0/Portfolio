@@ -16,7 +16,8 @@ export const MainContainer = styled.div`
   margin-top: 2.5rem; //TIRAR DEPOIS
 
   @media (max-width: 1440px) {
-    width: 1170px;
+    /* width: 1170px; */
+    width: 500px; //O tamanho do componente onde fica os icones
 
     margin-left: auto;
     margin-right: auto;
@@ -44,15 +45,45 @@ export const HeaderContainer = styled.div`
 export const Container = styled.div`
   height: 3.125rem;
 
-  display: flex;
+  /*display: flex;
+  align-items: center;
+  justify-content: center; */
+
+  display: grid;
+  /* place-items: center; */
+
+  grid-template-columns: repeat(14, 80px); //5%
+  grid-template-rows: 1fr;
+
   align-items: center;
   justify-content: center;
+  gap: 3rem;
 
-  gap: 2rem;
   /* gap: 3.125rem; */
 
-  @media (max-width: 1440px) {
+  /* @media (max-width: 1440px) {
     flex-wrap: wrap;
+  } */
+
+  @media (max-width: 1440px) {
+    grid-template-columns: repeat(7, 80px); //5%
+    grid-template-rows: 2fr;
+
+    gap: 2rem;
+  }
+
+  @media (max-width: 870px) {
+    grid-template-columns: repeat(4, 80px); //5%
+    height: 300px;
+  }
+
+  @media (max-width: 750px) {
+    grid-template-columns: repeat(2, 80px); //5%
+    height: 800px;
+    width: 200px;
+
+    margin-left: auto;
+    margin-right: auto;
   }
 `;
 
@@ -78,9 +109,7 @@ export const TechContainer = styled.div`
 
   border-radius: 1.25rem;
 
-  /* background-color: rgba(28, 28, 30, 0.2); Cor que estava antes*/
-  /* background-color: rgba(48, 48, 50, 0.9); */
-  background-color: rgba(53, 53, 55, 0.9); /* Um pouco mais clara */
+  background-color: rgba(53, 53, 55, 0.9);
 
   transition: transform 1s;
 
@@ -91,6 +120,23 @@ export const TechContainer = styled.div`
     svg {
       color: #87ceeb;
     }
+  }
+
+  @media (max-width: 1440px) {
+    height: 85px;
+    width: 85px;
+    /* margin-top: 0; */
+  }
+
+  @media (max-width: 1024px) {
+    background-color: rebeccapurple;
+  }
+
+  @media (max-width: 865px) {
+    background-color: blue;
+  }
+  @media (max-width: 900px) {
+    background-color: gray;
   }
 `;
 

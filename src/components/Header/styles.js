@@ -5,6 +5,7 @@ export const Container = styled.header`
   justify-content: space-between;
   align-items: center;
   position: fixed;
+  top: 0;
   backdrop-filter: blur(60px);
   z-index: 998;
 
