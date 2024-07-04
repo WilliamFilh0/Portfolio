@@ -8,6 +8,7 @@ import { Contact } from "../components/Contact/Contact";
 import { Footer } from "../components/Footer/Footer";
 import { ContactArea } from "../components/ContactArea/ContactArea";
 import { ScrollTopButton } from "../components/ScrollTopButton/ScrollTopButton";
+import { MenuMobile } from "../components/MenuMobile";
 
 import {
   AboutMe,
@@ -23,6 +24,7 @@ import {
 
 export function Page() {
   const [showButton, setShowButton] = useState(false);
+  const [menuIsVisible, setMenuIsVisible] = useState(false);
 
   useEffect(() => {
     window.addEventListener("scroll", () => {
@@ -36,7 +38,11 @@ export function Page() {
 
   return (
     <>
-      <Header />
+      <MenuMobile
+        menuIsVisible={menuIsVisible}
+        setMenuIsVisible={setMenuIsVisible}
+      />
+      <Header setMenuIsVisible={setMenuIsVisible} />
       <FullHeightContainer id="About">
         <CenteredContainer>
           <ProfileSection>

@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import { FiAlignJustify } from "react-icons/fi";
 
 export const Container = styled.header`
   display: flex;
@@ -32,6 +33,10 @@ export const Nav = styled.ul`
 
   margin-right: 0.938rem;
   color: rgba(196, 196, 204, 0.2);
+
+  @media (max-width: 900px) {
+    display: none;
+  }
 `;
 
 export const A = styled.a`
@@ -81,4 +86,17 @@ export const A = styled.a`
 export const Img = styled.img`
   height: 3.125rem;
   margin-left: 1.875rem;
+`;
+
+export const Section = styled.section`
+  display: none;
+  margin-right: 10px;
+
+  @media (max-width: 900px) {
+    display: block;
+  }
+`;
+
+export const FiAlignJustifyP = styled(FiAlignJustify)`
+  color: white;
 `;
