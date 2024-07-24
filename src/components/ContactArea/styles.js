@@ -53,6 +53,11 @@ export const ContactMessage = styled.p`
   font-family: "Roboto Slab", serif;
   font-optical-sizing: auto;
   font-weight: 400;
+
+  @media (max-width: 750px) {
+    width: 280px;
+    text-align: center;
+  }
 `;
 
 export const ContactButtonContainer = styled.div`
