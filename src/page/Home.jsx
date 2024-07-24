@@ -49,9 +49,9 @@ export function Page() {
             <Profile />
 
             <AboutMe>
-              {/* <ContactContainer>
+              <ContactContainer>
                 <Contact />
-              </ContactContainer> */}
+              </ContactContainer>
               <AboutTitle>Quem sou</AboutTitle>
               <NameTitle>William Araújo</NameTitle>
               <RoleTitle>Front-End Developer</RoleTitle>

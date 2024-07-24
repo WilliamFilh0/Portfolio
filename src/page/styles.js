@@ -26,7 +26,8 @@ export const ProfileSection = styled.div`
   position: relative;
 
   //Retangulo maior onde fica os elementos
-  @media (max-width: 1410px) {
+  //Mudei porque estava muito graande, o espaçamento entre o elemento e a borda, era antes 1410px
+  @media (max-width: 1440px) {
     /* height: 327px;
     width: 677px; */
     height: 360px;
@@ -43,6 +44,19 @@ export const ProfileSection = styled.div`
     /* display: flex;
     align-items: center;
     justify-content: center; */
+  }
+
+  @media (max-width: 900px) {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    /* height: 650px; */
+    height: 620px; //Mudei o tmanho da altura
+    width: 380px;
+
+    padding-left: 0;
   }
 `;
 
@@ -63,8 +77,20 @@ export const AboutMe = styled.div`
   width: 32.75rem;
   height: 7.688rem;
 
-  @media (max-width: 1350px) {
+  @media (max-width: 1440px) {
+    //max-width: 1450px
+    //1350px
     font-size: 12px;
+  }
+
+  @media (max-width: 900px) {
+    /* width: 320px; */
+    width: 300px;
+    height: 540px;
+
+    display: block;
+
+    padding-left: 0;
   }
 `;
 
@@ -72,6 +98,18 @@ export const ContactContainer = styled.div`
   position: absolute;
   top: 2rem;
   right: 2rem;
+
+  @media (max-width: 1440px) {
+    position: absolute;
+    top: 1.5rem;
+    right: 1.5rem;
+  }
+
+  @media (max-width: 900px) {
+    position: absolute;
+    top: 21rem;
+    right: 2.5rem;
+  }
 `;
 
 export const AboutTitle = styled.p`
@@ -87,6 +125,10 @@ export const AboutTitle = styled.p`
   @media (max-width: 1440px) {
     margin-bottom: 15px;
   }
+  @media (max-width: 900px) {
+    margin-bottom: 15px;
+    font-size: 16px;
+  }
 `;
 
 export const NameTitle = styled.h1`
@@ -98,6 +140,11 @@ export const NameTitle = styled.h1`
 
   @media (max-width: 1440px) {
     margin-bottom: 20px;
+  }
+
+  @media (max-width: 900px) {
+    margin-bottom: 15px;
+    font-size: 19px;
   }
 `;
 
@@ -111,6 +158,11 @@ export const RoleTitle = styled.h2`
   @media (max-width: 1440px) {
     margin-bottom: 20px;
   }
+
+  @media (max-width: 900px) {
+    margin-bottom: 15px;
+    font-size: 20px;
+  }
 `;
 //Colocando tamanho no texto
 export const ProfileDescription = styled.p`
@@ -121,5 +173,14 @@ export const ProfileDescription = styled.p`
 
   @media (max-width: 1440px) {
     width: 370px;
+  }
+
+  @media (max-width: 900px) {
+    margin-bottom: 15px;
+    font-size: 12px;
+    width: 300px;
+
+    /* letter-spacing: 2px;
+    word-spacing: 4px; */
   }
 `;

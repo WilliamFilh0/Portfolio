@@ -7,6 +7,10 @@ export const CenteredContainer = styled.div`
   align-items: center;
   justify-content: center;
   position: relative;
+
+  @media (max-width: 900px) {
+    margin-top: 30px;
+  }
 `;
 
 const float = keyframes`
@@ -15,6 +19,17 @@ const float = keyframes`
   }
   50% {
     transform: translateY(-20px);
+  }
+
+
+`;
+
+const floatSmall = keyframes`
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
   }
 `;
 
@@ -31,6 +46,10 @@ export const UserProfile = styled.div`
 
   animation: ${float} 5s ease-in-out infinite;
 
+  @media (max-width: 900px) {
+    animation: ${floatSmall} 2s ease-in-out infinite;
+  }
+
   //De cima(escuro) pra baixo(claro)
   background: linear-gradient(
     180deg,
@@ -39,11 +58,19 @@ export const UserProfile = styled.div`
     rgba(0, 212, 255, 1) 100%
   );
 
-  //Posicionamento em telas menores
-
   @media (max-width: 1440px) {
     height: 320px;
     width: 320px;
+  }
+
+  //Mobile
+  @media (max-width: 900px) {
+    height: 288px;
+    width: 288px;
+
+    @media (max-width: 550px) {
+      /* border: 1px solid purple; */
+    }
   }
 
   //Circular
@@ -85,6 +112,15 @@ export const Img = styled.img`
     height: 320px;
     width: 300px;
   }
+  //Mobile
+  @media (max-width: 900px) {
+    height: 288px;
+    width: 270px;
+  }
+
+  @media (max-width: 550px) {
+    /* border: 1px solid red; */
+  }
 `;
 
 //Bob flutuante
@@ -100,5 +136,14 @@ export const ImgBackground = styled.img`
 
     //Mudando o tamnho do bob
     width: 380px;
+  }
+  //Mobile
+  @media (max-width: 900px) {
+    height: 288px;
+    width: 360px;
+  }
+
+  @media (max-width: 550px) {
+    /* border: 1px solid red; */
   }
 `;
