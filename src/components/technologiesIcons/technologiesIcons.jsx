@@ -15,6 +15,7 @@ import {
   RiTailwindCssFillP,
   SiViteP,
   SiNextdotjsP,
+  SiAxiosP,
   MainContainer,
   H1,
   HeaderContainer,
@@ -95,6 +96,11 @@ export function TechnologiesIcons({ id }) {
           <TechContainer>
             <SiNextdotjsP size="2.5rem" />
             <TechIconTitle>Next</TechIconTitle>
+          </TechContainer>
+
+          <TechContainer>
+            <SiAxiosP size="2.5rem" />
+            <TechIconTitle>Axios</TechIconTitle>
           </TechContainer>
         </Container>
       </MainContainer>

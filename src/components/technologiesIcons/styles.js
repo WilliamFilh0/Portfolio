@@ -11,6 +11,7 @@ import {
 import { BiLogoTypescript } from "react-icons/bi";
 import { IoLogoCss3 } from "react-icons/io";
 import { RiTailwindCssFill } from "react-icons/ri";
+import { SiAxios } from "react-icons/si";
 
 export const MainContainer = styled.div`
   margin-top: 2.5rem; //TIRAR DEPOIS
@@ -23,6 +24,12 @@ export const MainContainer = styled.div`
     margin-right: auto;
     margin-bottom: 80px;
     padding-bottom: 60px;
+  }
+
+  @media (max-width: 900px) {
+    /* width: 430px; */
+    /* width: 400px; */
+    width: 220px;
   }
 `;
 
@@ -189,5 +196,9 @@ export const SiViteP = styled(SiVite)`
 `;
 
 export const SiNextdotjsP = styled(SiNextdotjs)`
+  color: white;
+`;
+
+export const SiAxiosP = styled(SiAxios)`
   color: white;
 `;
