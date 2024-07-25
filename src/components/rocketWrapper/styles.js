@@ -35,6 +35,30 @@ export const WrapperContainer = styled.div`
 
   position: relative;
 
+  @media (max-width: 870px) {
+    /* height: 800px;
+    width: 480px; */
+
+    height: 780px;
+    width: 390px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+  }
+
+  @media (max-width: 750px) {
+    width: 370px;
+  }
+
+  @media (max-width: 375px) {
+    width: 350px;
+    height: 630px;
+    gap: 10px;
+  }
+
   /* border-radius: 5px; */
 `;
 
@@ -53,6 +77,16 @@ export const IoMdCloseP = styled(IoMdClose)`
     cursor: pointer;
     transform: scale(1.1);
   }
+
+  @media (max-width: 870px) {
+    top: 13px;
+    right: 14px;
+  }
+
+  @media (max-width: 750px) {
+    top: 10px;
+    right: 11px;
+  }
 `;
 
 export const WrapperImage = styled.div`
@@ -67,6 +101,22 @@ export const WrapperImage = styled.div`
   &:hover {
     transform: scale(1.05) translateY(-5px);
     cursor: pointer;
+  }
+
+  @media (max-width: 870px) {
+    width: 365px;
+    height: 274px;
+  }
+
+  @media (max-width: 750px) {
+    width: 340px;
+    height: 260px;
+  }
+
+  @media (max-width: 375px) {
+    width: 300px;
+    height: 200px;
+    margin-top: 15px;
   }
 `;
 
@@ -95,6 +145,22 @@ export const TextDescription = styled.p`
   font-family: "Roboto Slab", serif;
   font-style: normal;
   font-size: 0.875rem;
+
+  @media (max-width: 870px) {
+    width: 350px;
+    height: 150px;
+  }
+
+  @media (max-width: 750px) {
+    width: 330px;
+    height: 160px;
+  }
+
+  @media (max-width: 375px) {
+    width: 300px;
+    height: 160px;
+    font-size: small;
+  }
 `;
 
 export const TechnologiesCenter = styled.div`
@@ -107,6 +173,10 @@ export const TechnologiesCenter = styled.div`
   flex-wrap: wrap;
 
   gap: 0.625rem;
+
+  @media (max-width: 875px) {
+    width: 300px;
+  }
 `;
 
 export const TechnologiesSmall = styled.div`
