@@ -135,7 +135,7 @@ export const TechContainer = styled.div`
     /* margin-top: 0; */
   }
 
-  @media (max-width: 1024px) {
+  /* @media (max-width: 1024px) {
     background-color: rebeccapurple;
   }
 
@@ -144,7 +144,7 @@ export const TechContainer = styled.div`
   }
   @media (max-width: 900px) {
     background-color: gray;
-  }
+  } */
 `;
 
 export const FaReactP = styled(FaReact)`
