@@ -10,7 +10,8 @@ export const ProjectsContainer = styled.div`
     padding-top: 1.25rem;
     height: 470px;
 
-    margin-left: 50px; //Centralizar
+    //Esta afetando a centralizaçao do componenete quando a tela diminui
+    /* margin-left: 50px; //Centralizar */
   }
 
   @media (max-width: 870px) {
@@ -73,8 +74,12 @@ export const Container = styled.div`
     margin-left: 0px;
   }
 
+  @media screen and (min-width: 1380px) and (max-width: 1550px) {
+    margin-left: 40px;
+  }
+
   @media (max-width: 1440px) {
-    margin-left: 50px;
+    /* margin-left: 50px; // */
     margin-bottom: 0px;
     /* background-color: orange; */
   }
@@ -111,9 +116,9 @@ export const Container = styled.div`
     align-items: center;
     flex-direction: column;
     gap: 20px;
+    width: 300px;
 
     /* background-color: bisque; */
-    margin-left: 0;
     grid-template-columns: 1fr;
     grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
 
