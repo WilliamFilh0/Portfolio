@@ -58,6 +58,11 @@ export const ProfileSection = styled.div`
 
     padding-left: 0;
   }
+
+  @media (max-width: 375px) {
+    height: 585px;
+    width: 340px;
+  }
 `;
 
 export const AboutMe = styled.div`
