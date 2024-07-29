@@ -1,6 +1,7 @@
 import styled from "styled-components";
-const rocketNotes = new URL("../../assets/rocketNotes.png ", import.meta.url);
-const feed = new URL("../../assets/feed.png ", import.meta.url);
+
+const Feed = new URL("../../assets/feed.png", import.meta.url);
+const RocketNotes = new URL("../../assets/rocketNotes.png", import.meta.url);
 
 export const ProjectsContainer = styled.div`
   height: 100vh;
@@ -144,7 +145,8 @@ export const ProjectRocketNotes = styled.div`
   /* height: 325px;
   width: 525px; */
 
-  background-image: url(${rocketNotes});
+  background-image: url(${RocketNotes});
+
   background-size: cover;
 
   /* background-color: red; */
@@ -178,7 +180,7 @@ export const ProjectRocketNotes = styled.div`
 export const ProjectFeed = styled.div`
   grid-area: ProjectFeed;
 
-  background-image: url(${feed});
+  background-image: url(${Feed});
   background-size: cover;
 
   height: 20.313rem;
