@@ -4,6 +4,8 @@ import { IoClose } from "react-icons/io5";
 export const Container = styled.section`
   position: fixed;
   backdrop-filter: blur(60px);
+  -webkit-backdrop-filter: blur(60px);
+
   width: 100%;
   height: 100%;
   inset: 0;

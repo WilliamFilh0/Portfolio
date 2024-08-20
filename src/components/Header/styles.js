@@ -8,6 +8,7 @@ export const Container = styled.header`
   position: fixed;
   top: 0;
   backdrop-filter: blur(60px);
+  -webkit-backdrop-filter: blur(60px);
   z-index: 998;
 
   height: 4.375rem;
