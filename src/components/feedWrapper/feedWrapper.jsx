@@ -74,7 +74,7 @@ export function FeedWrapper({ isOpenFeed, setOpenModalFeed }) {
                   </ViewProjectCodeButton>
                 </a>
 
-                <a href="">
+                <a href="https://feed-ts-eight.vercel.app/" target="_blank">
                   <ViewProjectCodeButton>
                     <FaExternalLinkAltP size={20} />
                   </ViewProjectCodeButton>

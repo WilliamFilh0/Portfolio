@@ -75,7 +75,7 @@ export function RocketWrapper({ isOpenRocket, setOpenModalRocket }) {
                   </ViewProjectCodeButton>
                 </a>
 
-                <a href="">
+                <a href="https://rocket-notes-react-zeta.vercel.app/">
                   <ViewProjectCodeButton>
                     <FaExternalLinkAltP size={20} />
                   </ViewProjectCodeButton>
