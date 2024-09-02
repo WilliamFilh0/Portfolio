@@ -52,7 +52,7 @@ export function Page() {
               <ContactContainer>
                 <Contact />
               </ContactContainer>
-              <AboutTitle>Quem sou</AboutTitle>
+              <AboutTitle>Sobre Mim</AboutTitle>
               <NameTitle>William Araújo</NameTitle>
               <RoleTitle>Front-End Developer</RoleTitle>
               <ProfileDescription>
