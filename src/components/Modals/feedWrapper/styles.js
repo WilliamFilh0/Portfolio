@@ -1,6 +1,7 @@
 import styled from "styled-components";
 
-const Feed = new URL("../../assets/feed.png", import.meta.url);
+const Feed = new URL("../../../assets/feed.png", import.meta.url);
+// const Feed = new URL("../../assets/feed.png", import.meta.url);
 
 import { FaExternalLinkAlt } from "react-icons/fa";
 import { IoMdClose } from "react-icons/io";

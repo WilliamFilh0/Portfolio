@@ -1,5 +1,5 @@
 import React from "react";
-import { useState } from "react";
+import * as Dialog from "@radix-ui/react-dialog";
 
 import {
   H1,
@@ -15,12 +15,10 @@ import {
   ProjectsContainer,
 } from "./styles";
 
-import { RocketWrapper } from "../rocketWrapper/RocketWrapper";
-import { FeedWrapper } from "../feedWrapper/feedWrapper";
+import { RocketWrapper } from "../Modals/rocketWrapper/RocketWrapper";
+import { FeedWrapper } from "../Modals/feedWrapper/feedWrapper";
 
 export function Projects({ id }) {
-  const [openModalRocket, setOpenModalRocket] = useState(false);
-  const [openModalFeed, setOpenModalFeed] = useState(false);
   return (
     <>
       <ProjectsContainer id={id}>
@@ -29,16 +27,22 @@ export function Projects({ id }) {
         </HeaderContainer>
 
         <Container>
-          <ProjectRocketNotes onClick={() => setOpenModalRocket(true)} />
-          <RocketWrapper
-            isOpenRocket={openModalRocket}
-            setOpenModalRocket={() => setOpenModalRocket(!openModalRocket)}
-          />
-          <ProjectFeed onClick={() => setOpenModalFeed(true)} />
-          <FeedWrapper
-            isOpenFeed={openModalFeed}
-            setOpenModalFeed={() => setOpenModalFeed(!openModalFeed)}
-          />
+          <Dialog.Root>
+            <Dialog.Trigger asChild>
+              <ProjectRocketNotes />
+            </Dialog.Trigger>
+
+            <RocketWrapper></RocketWrapper>
+          </Dialog.Root>
+
+          <Dialog.Root>
+            <Dialog.Trigger asChild>
+              <ProjectFeed />
+            </Dialog.Trigger>
+
+            <FeedWrapper></FeedWrapper>
+          </Dialog.Root>
+
           <ProjectTrips>
             {" "}
             <TexComingSoonMessagete>Em Breve</TexComingSoonMessagete>

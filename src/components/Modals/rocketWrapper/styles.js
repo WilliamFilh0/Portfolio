@@ -1,10 +1,11 @@
 import styled from "styled-components";
 
-const RocketNotes = new URL("../../assets/rocketNotes.png", import.meta.url);
+const RocketNotes = new URL("../../../assets/rocketNotes.png", import.meta.url);
 
 import { FaExternalLinkAlt } from "react-icons/fa";
 import { IoMdClose } from "react-icons/io";
 import { BsGithub } from "react-icons/bs";
+import { DialogTitle, DialogDescription } from "@radix-ui/react-dialog";
 
 export const Center = styled.div`
   position: fixed; //Modal posicionamento

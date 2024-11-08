@@ -137,7 +137,7 @@ export const Container = styled.div`
   }
 `;
 
-export const ProjectRocketNotes = styled.div`
+export const ProjectRocketNotes = styled.button`
   grid-area: ProjectRocketNotes;
 
   height: 20.313rem; //325px
@@ -154,6 +154,7 @@ export const ProjectRocketNotes = styled.div`
   transition: transform 1s;
 
   border-radius: 0.313rem;
+  border: 0;
 
   &:hover {
     transform: scale(1.1) translateY(-5px);
@@ -177,7 +178,7 @@ export const ProjectRocketNotes = styled.div`
   }
 `;
 
-export const ProjectFeed = styled.div`
+export const ProjectFeed = styled.button`
   grid-area: ProjectFeed;
 
   background-image: url(${Feed});
@@ -189,6 +190,7 @@ export const ProjectFeed = styled.div`
   width: 525px; */
 
   border-radius: 0.313rem;
+  border: 0;
 
   /* background-color: blue; */
 
