@@ -1,11 +1,12 @@
 import styled from "styled-components";
 
 const Feed = new URL("../../../assets/feed.png", import.meta.url);
-// const Feed = new URL("../../assets/feed.png", import.meta.url);
 
 import { FaExternalLinkAlt } from "react-icons/fa";
 import { IoMdClose } from "react-icons/io";
 import { BsGithub } from "react-icons/bs";
+
+import { DialogDescription, DialogTitle } from "@radix-ui/react-dialog";
 
 export const Center = styled.div`
   position: fixed; //Modal posicionamento
@@ -132,18 +133,27 @@ export const WrappedProjectInfo = styled.div`
   gap: 0.938rem;
 `;
 
-export const Title = styled.h1`
+export const Title = styled(DialogTitle)`
   color: white;
+
+  display: block;
+  font-size: 2em;
+  font-weight: bold;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  unicode-bidi: isolate;
 
   font-family: "Roboto Slab", serif;
   font-optical-sizing: auto;
   font-style: normal;
 `;
-
-export const TextDescription = styled.p`
+//.p
+export const TextDescription = styled(DialogDescription)`
   width: 27.5rem;
   /* width: 352px; */
   height: 6.875rem;
+
+  font-weight: normal;
 
   color: white;
   margin-bottom: 0.938rem;
@@ -195,8 +205,6 @@ export const TechnologiesSmall = styled.div`
 
   border-radius: 1.25rem;
 
-  /* background-color: rgb(41, 91, 140); */
-  /* color: white; */
   background-color: rgb(41, 91, 140);
   color: white;
 

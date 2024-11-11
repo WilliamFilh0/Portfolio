@@ -15,8 +15,8 @@ import {
   ProjectsContainer,
 } from "./styles";
 
-import { RocketWrapper } from "../Modals/rocketWrapper/RocketWrapper";
-import { FeedWrapper } from "../Modals/feedWrapper/feedWrapper";
+import { RocketWrapper } from "../Modals/rocketWrapper/index";
+import { FeedWrapper } from "../Modals/feedWrapper/index";
 
 export function Projects({ id }) {
   return (

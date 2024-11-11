@@ -127,15 +127,22 @@ export const WrappedProjectInfo = styled.div`
   gap: 0.938rem;
 `;
 
-export const Title = styled.h1`
+export const Title = styled(DialogTitle)`
   color: white;
+
+  display: block;
+  font-size: 2em;
+  font-weight: bold;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  unicode-bidi: isolate;
 
   font-family: "Roboto Slab", serif;
   font-optical-sizing: auto;
   font-style: normal;
 `;
 
-export const TextDescription = styled.p`
+export const TextDescription = styled(DialogDescription)`
   width: 27.5rem;
   /* width: 352px; */
   height: 6.875rem;
@@ -146,6 +153,7 @@ export const TextDescription = styled.p`
   font-family: "Roboto Slab", serif;
   font-style: normal;
   font-size: 0.875rem;
+  font-weight: normal;
 
   @media (max-width: 870px) {
     width: 350px;

@@ -29,7 +29,6 @@ export function RocketWrapper() {
     <>
       <DialogPortal>
         <DialogOverlay />
-
         <DialogContent>
           <Center>
             <WrapperContainer>
