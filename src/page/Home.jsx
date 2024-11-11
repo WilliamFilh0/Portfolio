@@ -1,14 +1,14 @@
 import React, { useEffect, useState } from "react";
 
-import { Header } from "../components/Header/Header";
-import { TechnologiesIcons } from "../components/technologiesIcons/technologiesIcons";
-import { Projects } from "../components/Projects/projects";
-import { Profile } from "../components/Profile";
-import { Contact } from "../components/Contact/Contact";
-import { Footer } from "../components/Footer/Footer";
-import { ContactArea } from "../components/ContactArea/ContactArea";
-import { ScrollTopButton } from "../components/ScrollTopButton/ScrollTopButton";
-import { MenuMobile } from "../components/MenuMobile";
+import { Header } from "../components/Header/index";
+import { TechnologiesIcons } from "../components/technologiesIcons/index";
+import { Projects } from "../components/Projects/index";
+import { Profile } from "../components/Profile/index";
+import { Contact } from "../components/Contact/index";
+import { Footer } from "../components/Footer/index";
+import { ContactArea } from "../components/ContactArea/index";
+import { ScrollTopButton } from "../components/ScrollTopButton/index";
+import { MenuMobile } from "../components/MenuMobile/index";
 
 import {
   AboutMe,
