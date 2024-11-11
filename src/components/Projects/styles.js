@@ -20,7 +20,6 @@ export const ProjectsContainer = styled.div`
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    /* padding-top: 300px; */
     height: 720px;
     padding-top: 30px;
     /* background-color: red; */
@@ -52,9 +51,6 @@ export const H1 = styled.h1`
 `;
 
 export const Container = styled.div`
-  /* display: flex;
-  gap: 40px;
-  margin-left: 95px; */
   display: grid;
   margin-left: 5.938rem;
 
@@ -80,7 +76,6 @@ export const Container = styled.div`
   }
 
   @media (max-width: 1440px) {
-    /* margin-left: 50px; // */
     margin-bottom: 0px;
     /* background-color: orange; */
   }
@@ -94,13 +89,10 @@ export const Container = styled.div`
   }
 
   @media (max-width: 870px) {
-    /* margin-left: auto;
-    margin-right: auto; */
+    /* margin-left: auto;*/
     width: 680px;
 
     margin-left: 0;
-
-    /* background-color: black; */
 
     /* background-color: red; */
     grid-template-columns: 1fr 1fr;
@@ -142,8 +134,8 @@ export const ProjectRocketNotes = styled.button`
 
   height: 20.313rem; //325px
   width: 32.813rem; //525px
-  /* height: 325px;
-  width: 525px; */
+
+  border-radius: 0.313rem;
 
   background-image: url(${RocketNotes});
 
@@ -153,7 +145,6 @@ export const ProjectRocketNotes = styled.button`
 
   transition: transform 1s;
 
-  border-radius: 0.313rem;
   border: 0;
 
   &:hover {
@@ -184,10 +175,8 @@ export const ProjectFeed = styled.button`
   background-image: url(${Feed});
   background-size: cover;
 
-  height: 20.313rem;
-  width: 32.813rem;
-  /* height: 325px;
-  width: 525px; */
+  height: 20.313rem; //height: 325px;
+  width: 32.813rem; //  width: 525px;
 
   border-radius: 0.313rem;
   border: 0;
@@ -258,10 +247,8 @@ export const ProjectTrips = styled.div`
 export const Teste1 = styled.div`
   grid-area: Teste1;
 
-  height: 20.313rem;
-  width: 32.813rem;
-  /* height: 325px;
-  width: 525px; */
+  height: 20.313rem; //325px
+  width: 32.813rem; //525px;
 
   margin-top: 1.25rem;
 
@@ -290,15 +277,19 @@ export const Teste1 = styled.div`
     /* margin-top: 0; */
   }
 
-  @media (max-width: 865px) {
+  //Antes era 865px
+  /* @media (max-width: 870px) {
     height: 180px;
     width: 328px;
     margin-top: 0;
-  }
-  @media (max-width: 900px) {
+  } */
+
+  //Antes estava em 900px
+  @media (max-width: 870px) {
+    //900px de max-width
     height: 180px;
     width: 328px;
-    /* margin-top: 0; */
+    margin-top: 0;
   }
 
   @media (max-width: 1024px) {
@@ -350,10 +341,8 @@ export const Teste2 = styled.div`
 export const Teste3 = styled.div`
   grid-area: Teste3;
 
-  height: 20.313rem;
-  width: 32.813rem;
-  /* height: 325px;
-  width: 525px; */
+  height: 20.313rem; //325px
+  width: 32.813rem; // 525px
 
   margin-top: 1.25rem;
 
@@ -399,8 +388,7 @@ export const TexComingSoonMessagete = styled.p`
 
   position: absolute;
 
-  /* background-color: black;
-  background-color: rgba(30, 30, 32, 0.6); */
+  /* background-color: rgba(30, 30, 32, 0.6); */
   background-color: rgba(45, 45, 47, 1);
 
   color: white;
@@ -410,9 +398,5 @@ export const TexComingSoonMessagete = styled.p`
   font-style: normal;
   color: #c4c4cc;
 
-  /* color: #a9a9a9;
-  font-family: "Roboto Slab", serif;
-  font-optical-sizing: auto;
-  font-weight: 400;*/
   font-size: 1.5rem;
 `;
