@@ -17,6 +17,8 @@ import {
 
 import { RocketWrapper } from "../Modals/rocketWrapper/index";
 import { FeedWrapper } from "../Modals/feedWrapper/index";
+import { DtMoneyWrapper } from "../Modals/dtMoneyWrapper/index";
+import { TimerWrapper } from "../Modals/timerWrapper/index";
 
 export function Projects({ id }) {
   return (
@@ -43,9 +45,22 @@ export function Projects({ id }) {
             <FeedWrapper></FeedWrapper>
           </Dialog.Root>
 
-          <ProjectDtMoney />
+          <Dialog.Root>
+            <Dialog.Trigger asChild>
+              <ProjectDtMoney />
+            </Dialog.Trigger>
 
-          <ProjectTimer />
+            <DtMoneyWrapper></DtMoneyWrapper>
+          </Dialog.Root>
+
+          <Dialog.Root>
+            <Dialog.Trigger asChild>
+              <ProjectTimer />
+            </Dialog.Trigger>
+
+            <TimerWrapper></TimerWrapper>
+          </Dialog.Root>
+
           <Teste2>
             {" "}
             <TexComingSoonMessagete>Em Breve</TexComingSoonMessagete>

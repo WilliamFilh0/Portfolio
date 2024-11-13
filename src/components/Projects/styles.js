@@ -220,6 +220,8 @@ export const ProjectDtMoney = styled.button`
   background-image: url(${DtMoney});
 
   background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 
   /* background-color: red; */
 
@@ -260,6 +262,8 @@ export const ProjectTimer = styled.button`
   border-radius: 0.313rem;
 
   background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 
   transition: transform 1s;
 
