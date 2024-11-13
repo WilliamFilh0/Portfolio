@@ -7,12 +7,12 @@ import {
   HeaderContainer,
   ProjectFeed,
   ProjectRocketNotes,
-  ProjectTrips,
-  Teste1,
+  ProjectTimer,
   Teste2,
   Teste3,
   TexComingSoonMessagete,
   ProjectsContainer,
+  ProjectDtMoney,
 } from "./styles";
 
 import { RocketWrapper } from "../Modals/rocketWrapper/index";
@@ -43,13 +43,9 @@ export function Projects({ id }) {
             <FeedWrapper></FeedWrapper>
           </Dialog.Root>
 
-          <ProjectTrips>
-            {" "}
-            <TexComingSoonMessagete>Em Breve</TexComingSoonMessagete>
-          </ProjectTrips>
-          <Teste1>
-            <TexComingSoonMessagete>Em Breve</TexComingSoonMessagete>
-          </Teste1>
+          <ProjectDtMoney />
+
+          <ProjectTimer />
           <Teste2>
             {" "}
             <TexComingSoonMessagete>Em Breve</TexComingSoonMessagete>

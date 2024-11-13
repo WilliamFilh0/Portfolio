@@ -2,6 +2,8 @@ import styled from "styled-components";
 
 const Feed = new URL("../../assets/feed.png", import.meta.url);
 const RocketNotes = new URL("../../assets/rocketNotes.png", import.meta.url);
+const DtMoney = new URL("../../assets/dt-money.png", import.meta.url);
+const timer = new URL("../../assets/timer.png", import.meta.url);
 
 export const ProjectsContainer = styled.div`
   height: 100vh;
@@ -58,8 +60,8 @@ export const Container = styled.div`
   grid-template-rows: 1fr 1fr;
 
   grid-template-areas:
-    "ProjectRocketNotes  ProjectFeed ProjectTrips"
-    "Teste1 Teste2 Teste3";
+    "ProjectRocketNotes  ProjectFeed ProjectDtMoney"
+    "ProjectTimer Teste2 Teste3";
 
   margin-bottom: 12.5rem; //Tirar depois
 
@@ -100,7 +102,7 @@ export const Container = styled.div`
 
     grid-template-areas:
       "ProjectRocketNotes ProjectFeed "
-      "Teste1 ProjectTrips "
+      "ProjectDtMoney ProjectTimer"
       "Teste2  Teste3";
   }
 
@@ -118,8 +120,8 @@ export const Container = styled.div`
     grid-template-areas:
       "ProjectRocketNotes"
       "ProjectFeed"
-      "ProjectTrips"
-      "Teste1"
+      "ProjectDtMoney"
+      "ProjectTimer"
       "Teste2"
       "Teste3";
   }
@@ -207,27 +209,29 @@ export const ProjectFeed = styled.button`
   }
 `;
 
-export const ProjectTrips = styled.div`
-  grid-area: ProjectTrips;
+export const ProjectDtMoney = styled.button`
+  grid-area: ProjectDtMoney;
 
-  height: 20.313rem;
-  width: 32.813rem;
-  /* height: 325px;
-  width: 525px; */
+  height: 20.313rem; //325px
+  width: 32.813rem; //525px
 
   border-radius: 0.313rem;
 
-  /* background-color: green; */
-  background-color: rgba(53, 53, 55, 0.9);
-  border: 1px solid rgb(49, 57, 88);
+  background-image: url(${DtMoney});
 
-  position: relative;
+  background-size: cover;
 
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  /* background-color: red; */
 
-  overflow: hidden;
+  transition: transform 1s;
+
+  &:hover {
+    transform: scale(1.1) translateY(-5px);
+    border: 1px solid #87ceeb;
+    cursor: pointer;
+  }
+
+  border: 0;
 
   @media (max-width: 1690px) {
     height: 18.2817rem; // 292px
@@ -244,27 +248,28 @@ export const ProjectTrips = styled.div`
   }
 `;
 
-export const Teste1 = styled.div`
-  grid-area: Teste1;
+export const ProjectTimer = styled.button`
+  grid-area: ProjectTimer;
+  margin-top: 1.25rem;
+
+  background-image: url(${timer});
 
   height: 20.313rem; //325px
-  width: 32.813rem; //525px;
-
-  margin-top: 1.25rem;
+  width: 32.813rem; //525px
 
   border-radius: 0.313rem;
 
-  /* background-color: orange; */
-  background-color: rgba(53, 53, 55, 0.9);
-  border: 1px solid rgb(49, 57, 88);
+  background-size: cover;
 
-  position: relative;
+  transition: transform 1s;
 
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  &:hover {
+    transform: scale(1.1) translateY(-5px);
+    border: 1px solid #87ceeb;
+    cursor: pointer;
+  }
 
-  overflow: hidden;
+  border: 0;
 
   @media (max-width: 1690px) {
     height: 18.2817rem; // 292px
