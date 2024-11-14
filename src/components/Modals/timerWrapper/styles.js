@@ -165,6 +165,7 @@ export const TextDescription = styled(DialogDescription)`
   @media (max-width: 870px) {
     width: 350px;
     height: 150px;
+    margin-bottom: 0.5rem;
   }
 
   @media (max-width: 750px) {
@@ -321,6 +322,14 @@ export const ViewProjectCodeButton = styled.button`
   align-items: center;
   justify-content: center;
   gap: 0.625rem;
+
+  @media (max-width: 875px) {
+    padding-top: 3.5rem;
+  }
+
+  @media (max-width: 350px) {
+    padding-top: 3rem;
+  }
 
   &:hover {
     cursor: pointer;
